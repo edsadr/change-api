@@ -1,0 +1,30 @@
+{
+  "name": "change-api",
+  "description": "Change.org API client",
+  "version": "0.0.0",
+  "dependencies": {
+    "defaults": "^1.0.0",
+    "request": "^2.51.0"
+  },
+  "scripts": {
+    "lint": "jshint .",
+    "pretest": "npm run-script lint",
+    "test": "istanbul cover ./node_modules/.bin/_mocha test",
+    "posttest": "istanbul check-coverage --statements 85 --branches 70 --functions 100 --lines 90 && rm -rf coverage",
+    "prepublish": "npm test && npm prune"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Adrián Estrada <edsadr@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^1.21.4",
+    "istanbul": "^0.3.2",
+    "jshint": "^2.5.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:edsadr/change-api.git"
+  }
+}
