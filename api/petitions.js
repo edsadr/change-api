@@ -3,7 +3,7 @@
 module.exports = function petitions(request) {
 
   /**
-   * Gets an petition id by url
+   * Gets a petition id by url
    *
    * @param {string} url - Url of the petition
    * @param {function} callback receiving error, response and result
