@@ -1,0 +1,39 @@
+{
+	"tests": [
+		{
+			"resource": "petitions",
+			"cases": [
+				{
+					"name": "petition-getIdByUrl",
+					"method": "getIdByUrl",
+					"args": "https://www.change.org/p/simon-rodwell-teach-the-javascript-masterclass",
+					"behavior": "It should get a petition ID by URL"
+				},
+				{
+					"name": "petition-getIdByUrlFailed",
+					"method": "getIdByUrl",
+					"args": "wrongurl",
+					"behavior": "It should fail getting a petition ID by aa wrong URL"
+				},
+				{
+					"name": "petition-getByID",
+					"method": "getByID",
+					"args": "1678685",
+					"behavior": "It should get a petition ID by URL"
+				},
+				{
+					"name": "petition-getByIDFailed",
+					"method": "getByID",
+					"args": "wrongid",
+					"behavior": "It should fail getting a petition ID by aa wrong URL"
+				},
+				{
+					"name": "petition-getByUrl",
+					"method": "getByUrl",
+					"args": "https://www.change.org/p/simon-rodwell-teach-the-javascript-masterclass",
+					"behavior": "It should get a petition by URL"
+				}
+			]
+		}
+	]
+}

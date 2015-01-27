@@ -1,0 +1,39 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/petitions/get_id?petition_url=https%3A%2F%2Fwww.change.org%2Fp%2Fsimon-rodwell-teach-the-javascript-masterclass&api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": "success",
+            "petition_id": 1678685
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Mon, 26 Jan 2015 15:49:02 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d3c7783cb6b02a36b07ee8f0cb0b58c791422287342; expires=Tue, 26-Jan-16 15:49:02 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=d502ae7f1dbc4143beab0106e4610cdd; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22902da04c-c1b9-4967-a678-7fbc78dc82cb%22%7D; path=/; expires=Mon, 26-Jan-2015 16:34:02 GMT",
+                "_change_session=9b1e8758b0900cf3a5808006888e708a; domain=.change.org; path=/; expires=Mon, 26-Jan-2015 16:34:02 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"2e37e6302e2af909df18403024e6b3df\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "a6aad6a57e717e2b8803c09415bb073a",
+            "x-runtime": "0.296104",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-19",
+            "cf-ray": "1aeddbb112b11098-MDE"
+        }
+    }
+]

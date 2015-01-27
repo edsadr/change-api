@@ -1,0 +1,59 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/petitions/1678685?api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "petition_id": 1678685,
+            "title": "Simon Rodwell: Teach the Javascript Masterclass!",
+            "status": "open",
+            "url": "https://api.change.org/p/simon-rodwell-teach-the-javascript-masterclass",
+            "overview": "<p>Because we want more Javascript. And we want Simon to teach it.</p>",
+            "targets": [
+                {
+                    "name": "Simon Rodwell",
+                    "type": "custom"
+                }
+            ],
+            "letter_body": "Teach the Javascript Masterclass!",
+            "signature_count": 5,
+            "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/6/tb/dc/xBtBDccsYtTlOOg-556x313-cropped.jpg",
+            "category": "Education",
+            "goal": 30,
+            "created_at": "2014-06-14T02:37:51Z",
+            "end_at": "2015-06-14T23:59:59Z",
+            "creator_name": "Juliette O'Brien",
+            "creator_url": "https://api.change.org/u/83653090",
+            "organization_name": null,
+            "organization_url": null
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Mon, 26 Jan 2015 15:49:09 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=df57aecf7afc62bfca647aab41b9c57581422287348; expires=Tue, 26-Jan-16 15:49:08 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=9f9f17383022470e998d085791935c63; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22b30bbb17-e4bb-43fd-8f34-0196db756f2d%22%7D; path=/; expires=Mon, 26-Jan-2015 16:34:09 GMT",
+                "_change_session=a6c191fa21acf96bd0e9575ddb6d2afa; domain=.change.org; path=/; expires=Mon, 26-Jan-2015 16:34:09 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"863448b52246e0ee94d02d344188373f\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "5d0d421e898679098972c69768ff56ea",
+            "x-runtime": "0.405471",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-10",
+            "cf-ray": "1aeddbd813d7107a-MDE"
+        }
+    }
+]

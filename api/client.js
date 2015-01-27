@@ -20,7 +20,7 @@ module.exports = function client(options) {
     });
 
     var url = util.format(
-      '%s/%s', // https://api.change.org/v1/<route>
+      '%s/%s',
       opts.endpoint,
       route
     );

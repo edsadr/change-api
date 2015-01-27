@@ -1,0 +1,39 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/petitions/wrongid?api_key=dummyKey",
+        "body": "",
+        "status": 404,
+        "response": {
+            "result": "failure",
+            "messages": [
+                "petition not found"
+            ]
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Mon, 26 Jan 2015 15:49:09 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d94c8613292d2a6da0517e84c1b868aa91422287349; expires=Tue, 26-Jan-16 15:49:09 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=4b55e0faa77645928ff42a34de0c7d5c; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%2270ab7714-7ff2-4c09-8f3e-22a422538c33%22%7D; path=/; expires=Mon, 26-Jan-2015 16:34:09 GMT",
+                "_change_session=1ac54ba760d6db50a5faacdf57ab03c3; domain=.change.org; path=/; expires=Mon, 26-Jan-2015 16:34:09 GMT; HttpOnly"
+            ],
+            "status": "404 Not Found",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "cache-control": "no-cache",
+            "x-request-id": "3acf8f5623d8d52d79aaa8732b07fd2d",
+            "x-runtime": "0.416873",
+            "x-rack-cache": "miss",
+            "cf-ray": "1aeddbddd406107a-MDE"
+        }
+    }
+]
