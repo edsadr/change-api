@@ -15,27 +15,22 @@ nocker.createClient = function () {
   });
 };
 
-nocker.loadCall = function (url,name,params) {
-  var reply = require('../testinfo/'+name+'.json');
+nocker.loadCall = function (url, method, name, params) {
+  var reply = require('../testinfo/' + name + '.json');
 
-//Apply the right pattern mocking the reply with intercept
-  return nock(endpoint)
-            .persist()
-            .get(url)
-            .replyWithFile(reply[0].status, '../testinfo/'+name+'.json');
-};
-
-nocker.api = function (method, route, params) {
   params = defaults(params, {
     api_key: apiKey
   });
 
-  var uri = util.format('/%s', route);
+  var uri = util.format('/%s', url);
 
   if (method === 'GET') {
-    uri = util.format('/%s?%s', route, qs.stringify(params));
+    uri = util.format('/%s?%s', url, qs.stringify(params));
     params = undefined;
   }
 
-  return nock(endpoint).intercept(uri, method, params);
+  return nock(endpoint)
+    .persist()
+    .intercept(uri, method, params)
+    .reply(reply[reply.length-1].status,reply[reply.length-1].response);
 };

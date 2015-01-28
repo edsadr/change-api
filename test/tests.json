@@ -7,31 +7,55 @@
 					"name": "petition-getIdByUrl",
 					"method": "getIdByUrl",
 					"args": "https://www.change.org/p/simon-rodwell-teach-the-javascript-masterclass",
-					"behavior": "It should get a petition ID by URL"
+					"behavior": "It should get a petition ID by URL",
+					"url": "petitions/get_id",
+					"verb": "GET",
+					"params": {
+						"petition_url": "https://www.change.org/p/simon-rodwell-teach-the-javascript-masterclass"
+					},
+					"status": 200
 				},
 				{
 					"name": "petition-getIdByUrlFailed",
 					"method": "getIdByUrl",
 					"args": "wrongurl",
-					"behavior": "It should fail getting a petition ID by aa wrong URL"
+					"behavior": "It should fail getting a petition ID by a wrong URL",
+					"url": "petitions/get_id",
+					"verb": "GET",
+					"params": {
+						"petition_url": "wrongurl"
+					},
+					"status": 404
 				},
 				{
 					"name": "petition-getByID",
 					"method": "getByID",
 					"args": "1678685",
-					"behavior": "It should get a petition ID by URL"
+					"behavior": "It should get a petition by ID",
+					"url": "petitions/1678685",
+					"verb": "GET",
+					"params": {},
+					"status": 200
 				},
 				{
 					"name": "petition-getByIDFailed",
 					"method": "getByID",
 					"args": "wrongid",
-					"behavior": "It should fail getting a petition ID by aa wrong URL"
+					"behavior": "It should fail getting a petition by a wrong ID",
+					"url": "petitions/wrongid",
+					"verb": "GET",
+					"params": {},
+					"status": 404
 				},
 				{
 					"name": "petition-getByUrl",
 					"method": "getByUrl",
 					"args": "https://www.change.org/p/simon-rodwell-teach-the-javascript-masterclass",
-					"behavior": "It should get a petition by URL"
+					"behavior": "It should get a petition by URL",
+					"url": "petitions/1678685",
+					"verb": "GET",
+					"params": {},
+					"status": 200
 				}
 			]
 		}

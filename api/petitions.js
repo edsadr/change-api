@@ -59,7 +59,7 @@ module.exports = function petitions(request) {
 
     getIdByUrl(url, function (err, res, body) {
       if (res.statusCode !== 200) {
-        throw new Error('the server replied with '+res.statusCode);
+        throw new Error('the server replied with ' + res.statusCode);
       }
 
       var id = body.petition_id;
