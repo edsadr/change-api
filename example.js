@@ -2,6 +2,7 @@ var changeApi = require('./index.js');
 
 var petitionUrl = 'https://www.change.org/p/simon-rodwell-teach-the-javascript-masterclass',
 	petitionID = '1678685',
+  userID= '83653090',
 	apiKey = process.env.CHANGE_API_KEY;
 
 var client = changeApi.createClient({
@@ -19,6 +20,11 @@ client.petitions.getByID(petitionID,
   });
 
 client.petitions.getByUrl(petitionUrl,
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.users.getByID(userID,
   function (err, res, body) {
     console.log(body);
   });

@@ -24,7 +24,7 @@ module.exports = function petitions(request) {
   }
 
   /**
-   * Gets an petition by id
+   * Gets a petition by id
    *
    * @param {string} id - Id of the petition
    * @param {function} callback receiving error, response and result
@@ -43,7 +43,7 @@ module.exports = function petitions(request) {
   }
 
   /**
-   * Gets an petition by url
+   * Gets a petition by url
    *
    * @param {string} url - Url of the petition
    * @param {function} callback receiving error, response and result
