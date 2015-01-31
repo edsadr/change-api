@@ -58,6 +58,55 @@
 					"status": 200
 				}
 			]
+		},
+		{
+			"resource": "users",
+			"cases": [
+				{
+					"name": "user-getIdByUrl",
+					"method": "getIdByUrl",
+					"args": "https://www.change.org/users/edsadr",
+					"behavior": "It should get a user ID by URL",
+					"url": "users/get_id",
+					"verb": "GET",
+					"params": {
+						"user_url": "https://www.change.org/users/edsadr"
+					},
+					"status": 200
+				},
+				{
+					"name": "user-getIdByUrlFailed",
+					"method": "getIdByUrl",
+					"args": "wrongurl",
+					"behavior": "It should fail getting a user ID by a wrong URL",
+					"url": "users/get_id",
+					"verb": "GET",
+					"params": {
+						"user_url": "wrongurl"
+					},
+					"status": 404
+				},
+				{
+					"name": "user-getByID",
+					"method": "getByID",
+					"args": "17118355",
+					"behavior": "It should get a user by ID",
+					"url": "users/17118355",
+					"verb": "GET",
+					"params": {},
+					"status": 200
+				},
+				{
+					"name": "user-getByIDFailed",
+					"method": "getByID",
+					"args": "wrongid",
+					"behavior": "It should fail getting a user by a wrong ID",
+					"url": "users/wrongid",
+					"verb": "GET",
+					"params": {},
+					"status": 404
+				}
+			]
 		}
 	]
 }

@@ -1,0 +1,44 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/users/17118355?api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "user_id": 17118355,
+            "name": "Adrian Estrada",
+            "location": "Medellin, Colombia",
+            "city": "Medellin",
+            "state_province": "ANT",
+            "country_name": "Colombia",
+            "country_code": "CO"
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Sat, 31 Jan 2015 03:46:05 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d92438a60b3e3cc593076c398c3e311e01422675964; expires=Sun, 31-Jan-16 03:46:04 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=463372dae47b4b39a467f847be0c5363; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22825ca08a-4a38-4bca-a952-122ecde3ecee%22%7D; path=/; expires=Sat, 31-Jan-2015 04:31:05 GMT",
+                "_change_session=0421a1b8a6f1c4dfbf5099240caeb248; domain=.change.org; path=/; expires=Sat, 31-Jan-2015 04:31:05 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"444a17b74278b0f5133b4dd9813763a8\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "f394ea4efb06ff2817cc18398e357816",
+            "x-runtime": "0.094690",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-09",
+            "cf-ray": "1b12eb8cd9cc1086-MDE"
+        }
+    }
+]

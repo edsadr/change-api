@@ -2,26 +2,26 @@
     {
         "scope": "https://api.change.org:443",
         "method": "GET",
-        "path": "/v1/petitions/wrongid?api_key=dummyKey",
+        "path": "/v1/users/wrongid?api_key=dummyKey",
         "body": "",
         "status": 404,
         "response": {
             "result": "failure",
-            "messages": [
-                "petition not found"
+            "errors": [
+                "user not found"
             ]
         },
         "headers": {
             "server": "cloudflare-nginx",
-            "date": "Sat, 31 Jan 2015 03:46:01 GMT",
+            "date": "Sat, 31 Jan 2015 03:46:05 GMT",
             "content-type": "application/json; charset=utf-8",
             "transfer-encoding": "chunked",
             "connection": "keep-alive",
             "set-cookie": [
-                "__cfduid=d3d73122e0ad86f4324acb15bd626f1d51422675961; expires=Sun, 31-Jan-16 03:46:01 GMT; path=/; domain=.change.org; HttpOnly",
-                "uuid=1d96c71994494f0e9f044641d6683f8b; path=/",
-                "tracking_data=%7B%22user_uuid%22%3A%227599e619-3e26-4831-8732-65225622027e%22%7D; path=/; expires=Sat, 31-Jan-2015 04:31:01 GMT",
-                "_change_session=e489b958a86a8b1c5b51807c8d763c29; domain=.change.org; path=/; expires=Sat, 31-Jan-2015 04:31:01 GMT; HttpOnly"
+                "__cfduid=dcd339852f94fbd373f332235dfb13cdc1422675965; expires=Sun, 31-Jan-16 03:46:05 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=4fc5eb5caa5943c39adc74c4b9f7cbdf; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%224849c965-4c1c-49bb-8c82-4468dfcfe523%22%7D; path=/; expires=Sat, 31-Jan-2015 04:31:05 GMT",
+                "_change_session=fafa59a4af04ef0ac549f35b73b63a2a; domain=.change.org; path=/; expires=Sat, 31-Jan-2015 04:31:05 GMT; HttpOnly"
             ],
             "status": "404 Not Found",
             "access-control-allow-origin": "",
@@ -30,10 +30,10 @@
             "access-control-max-age": "1728000",
             "x-ua-compatible": "IE=Edge,chrome=1",
             "cache-control": "no-cache",
-            "x-request-id": "2a6c0f354699b3bff88eca5c87b1d671",
-            "x-runtime": "0.071426",
+            "x-request-id": "65c2aaf40e6b1f6d6b13bfbb07381465",
+            "x-runtime": "0.091422",
             "x-rack-cache": "miss",
-            "cf-ray": "1b12eb785fa11092-MDE"
+            "cf-ray": "1b12eb906b831092-MDE"
         }
     }
 ]

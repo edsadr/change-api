@@ -1,0 +1,39 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/users/get_id?user_url=https%3A%2F%2Fwww.change.org%2Fusers%2Fedsadr&api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": "success",
+            "user_id": 17118355
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Sat, 31 Jan 2015 03:46:04 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d47b32b259378adc8608e26f5dffbeb351422675963; expires=Sun, 31-Jan-16 03:46:03 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=f22b4d7edd2d465c809ac1585be393fc; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22de595d98-2be6-48ad-892d-17c444349126%22%7D; path=/; expires=Sat, 31-Jan-2015 04:31:03 GMT",
+                "_change_session=dce7392c2f0f9d35dd7d6bb2f3b15339; domain=.change.org; path=/; expires=Sat, 31-Jan-2015 04:31:03 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"5518c6c6c2d4c31a2ea948f4a5b272bb\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "1bd0306fb3daca60866ee2de8bc47ef2",
+            "x-runtime": "0.083835",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-09",
+            "cf-ray": "1b12eb85b9a11086-MDE"
+        }
+    }
+]
