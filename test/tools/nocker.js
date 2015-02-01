@@ -33,36 +33,36 @@ nocker.loadCall = function (url, method, name, params) {
   return nock(endpoint)
     .persist()
     .intercept(uri, method, params)
-    .reply(reply[reply.length-1].status,reply[reply.length-1].response);
+    .reply(reply[reply.length - 1].status, reply[reply.length - 1].response);
 };
 
-nocker.testRequirements = function(client,resource,method){
-  it('Method '+method+' should throw an error for parameter missing', function () {
+nocker.testRequirements = function (client, resource, method) {
+  it('Method ' + method + ' should throw an error for parameter missing', function () {
     expect(function () {
       client[resource][method]();
     }).to.throw(Error);
   });
 
-  it('Method '+method+' should throw an error for callback missing', function () {
+  it('Method ' + method + ' should throw an error for callback missing', function () {
     expect(function () {
       client[resource][method]('fakeParameter');
     }).to.throw(Error);
   });
 };
 
-nocker.createTest = function(client, resource, ctest) {
-      
-    client[resource][ctest.method](ctest.args, function (err, res, body) {           
-      describe('change-api user endpoint method '+ctest.method, function () {
-        it(ctest.behavior,function (){        
-          expect(res.statusCode).to.be.equal(ctest.status);          
-        });
-        it('error should be null',function (){        
-          expect(err).to.be.null();          
-        });
-        it('body should not be null',function (){        
-          expect(body).to.not.be.null();          
-        });
+nocker.createTest = function (client, resource, ctest) {
+
+  client[resource][ctest.method](ctest.args, function (err, res, body) {
+    describe('change-api user endpoint method ' + ctest.method, function () {
+      it(ctest.behavior, function () {
+        expect(res.statusCode).to.be.equal(ctest.status);
+      });
+      it('error should be null', function () {
+        expect(err).to.be.null();
+      });
+      it('body should not be null', function () {
+        expect(body).to.not.be.null();
       });
     });
-  };
+  });
+};

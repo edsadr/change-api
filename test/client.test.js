@@ -12,10 +12,10 @@ describe('change-api client', function () {
   });
 
   var client = changeApi.createClient({
-      api_key: 'dummykey'
-    });
+    api_key: 'dummykey'
+  });
 
   it('Client should be an object', function () {
     expect(client).to.be.an('object');
-  });  
+  });
 })
