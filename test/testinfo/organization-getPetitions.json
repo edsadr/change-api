@@ -1,0 +1,295 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/organizations/5848/petitions?api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "page": 1,
+            "prev_page_endpoint": null,
+            "next_page_endpoint": "https://api.change.org/v1/organizations/5848/petitions?page=2",
+            "total_pages": 4,
+            "petitions": [
+                {
+                    "petition_id": 21421,
+                    "title": "Ask Congress to Improve the Lives of Children Worldwide",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/ask-congress-to-improve-the-lives-of-children-worldwide",
+                    "overview": "<p>Despite significant progress in children's health over the past few decades, 25,000 children under five years old still die from mostly preventable causes each day.&nbsp; With the current global financial crisis, vulnerable newborns and young children face greater challenges than ever.&nbsp; To improve child survival, we need your help.<br /><br /> In partnership with the U.S. Government and the American people, the United Nations Children's Fund (UNICEF) has helped cut the world's child mortality rate in half since 1960, proving that progress for children is possible.&nbsp; But UNICEF now has a much larger goal: reducing the number of child deaths from preventable causes to ZERO.<br /><br /> To make progress toward this ambitious goal, more resources are needed.<br /><br /> Each year the U.S. Government makes a contribution to UNICEF as part of America's global investment in children.&nbsp; This annual contribution to UNICEF's regular budget is critical to UNICEF's work in child survival and development.<br /><br /> With bipartisan support, Congress provided a contribution to UNICEF of $130 million for this fiscal year-the highest U.S. contribution ever to UNICEF. <br /><br /> Because of the current global financial crisis, UNICEF's important work is even more crucial to child survival.&nbsp; That is why for FY 2010, we will ask the U.S. Congress to invest $135 million in UNICEF to help save children's lives and protect their futures.<br /><br /> To gain the needed support in Congress, WE NEED YOUR HELP.&nbsp; Please urge your Members of Congress to support expanded funding for UNICEF today!</p>",
+                    "targets": [
+                        {
+                            "name": "U.S. House of Representatives",
+                            "type": "us_government"
+                        },
+                        {
+                            "name": "U.S. Senate",
+                            "type": "us_government"
+                        }
+                    ],
+                    "letter_body": "For more than 60 years, in partnership with the U.S. Government and the American people, UNICEF has made an enormous difference in saving children's lives and protecting their futures.&nbsp; With U.S. support, UNICEF helped cut the world's child mortality rate in half since 1960, proving that progress for children is possible even in poor countries, with political will, sound strategies, and funding.\n\n Sadly, however, in too many poor countries and communities around the world, too many children do not survive.&nbsp; Every year, 9.2 million children under five years old die from mostly preventable causes.&nbsp; Pneumonia and diarrhea alone account for a third of all child deaths.&nbsp; Children are most at risk in sub-Saharan Africa, which accounts for 22 per cent of global births, but almost half of under-five deaths.\n\n Along with UNICEF, I believe that number should be ZERO.&nbsp; \n\n To make this vision a reality, and protect the vulnerable during times of need, I urge you to support expanding UNICEF's funding from Congress from $130m in FY 2009 to $135m in FY 2010.\n\n This is a small price to pay to protect and improve children's lives around the world and I hope you will join me in my support of UNICEF's work.",
+                    "signature_count": 6409,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/9/df/bm/NoDfBmBTXmARiqL-556x313-cropped.jpg",
+                    "category": "Human Rights",
+                    "goal": 7500,
+                    "created_at": "2009-05-01T07:58:49Z",
+                    "end_at": "2009-07-19T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 33090,
+                    "title": "21,000 Children Die Needlessly Each Day. Let's Make It Zero.",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/21-000-children-die-needlessly-each-day-let-s-make-it-zero",
+                    "overview": "<p>UNICEF has announced that the number of children under the age of five dying each day from preventable disease dropped to 21,000 in 2010. That&rsquo;s down from 33,000 per day in 1990.</p>\r\n<p>That means, compared to 20 years ago, each and every day 12,000 more children are living to see their next sunrise. Each day, 12,000 more children are playing with friends, making their mothers laugh, and dreaming of all the exciting things they will do when they grow up. That is extraordinary.</p>\r\n<p><strong>But 21,000 is still 21,000 too many children dying from preventable causes. They die from causes most people in the U.S. rarely worry about. Malnutrition. Unsafe drinking water. Lack of a five-cent vaccine.</strong> That number should be -- and can be -- zero. This is a time of great opportunity for child survival. With strong U.S. support, UNICEF is leading efforts to reduce dramatically child deaths worldwide over the next decade.&nbsp;</p>\r\n<p>The U.S. Government's contribution to UNICEF is critical if we are to truly reach zero. It's an important part of America's humanitarian commitment to children worldwide. <strong>Please urge your members of Congress to invest in UNICEF for FY 2012 to help save millions of children's lives and protect their futures.</strong></p>",
+                    "targets": [
+                        {
+                            "name": "U.S. House of Representatives",
+                            "type": "us_government"
+                        },
+                        {
+                            "name": "U.S. Senate",
+                            "type": "us_government"
+                        }
+                    ],
+                    "letter_body": "I am writing to ask you to support $132.25 million as the U.S. Government's annual voluntary contribution to the United Nations Children's Fund (UNICEF) for FY 2012.\n \nUNICEF relies on voluntary contributions from both governments and private individuals to support its lifesaving programs.  The funding that our Nation provides to UNICEF is critical to UNICEF's innovative and effective child survival programs.  In addition, the U.S. contribution helps UNICEF respond to humanitarian crises (as in Haiti, Pakistan, and the Horn of Africa), and to address threats to children such as trafficking and sexual exploitation.\n \nIn partnership with the United States, our investment in UNICEF an in child survival makes a huge difference in the lives of poor children worldwide.  UNICEF just announced that the number of children under the age of five dying each day from preventable diseases dropped to 21,000 in 2010 – that’s 12,000 fewer child deaths per day than in 1990!\n \nDespite this significant achievement, the fact is that too many children still die from preventable diseases, too many children cannot attend school, and too many children suffer from exploitation and abuse.  U.S. leadership and funding helps UNICEF to be an effective partner with the United States on child-focused initiatives that Americans support.\n \nAs the House and Senate work to finalize funding for FY 2012, please support $132.25 million for UNICEF in the State, Foreign Operations, and Related Programs Appropriations. The U.S. contribution to UNICEF is one of the most worthwhile investments in children we can make with our foreign assistance dollars. Please let me know that you support this funding.\n \nThank you for considering my request. I look forward to hearing from you.",
+                    "signature_count": 97148,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/1/hn/jl/BAhnjLkWiZDwPjD-556x313-cropped.jpg",
+                    "category": "Health",
+                    "goal": 150000,
+                    "created_at": "2010-09-16T14:53:19Z",
+                    "end_at": "2012-03-09T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 33255,
+                    "title": "Support the United Nation's Efforts to Bring Clean, Safe Water to Millions",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/support-the-united-nation-s-efforts-to-bring-clean-safe-water-to-millions",
+                    "overview": "<p>Across the globe, 22,000 children die each day from preventable causes. In Africa, nearly half of those deaths are from diarrheal diseases.</p>\r\n<p><b>An infant born in sub-Saharan Africa is 520 times more likely to die from disease than a child born in Europe or the United States -- all because of a lack of clean water.</b></p>\r\n<p>All told, nearly 900 million people still rely on drinking water sources that are unsafe.</p>\r\n<p><b>Take action today in support of the UN&rsquo;s work to supply clean, safe drinking water to the world&rsquo;s poorest populations</b> and urge UN Secretary-General Ban Ki-moon to prioritize the Millennium Development Goal to halve the number of people without access to clean water and safe sanitation by 2015.</p>\r\n<p>UNICEF is the international leader in providing clean, safe drinking water to millions around the world who need it most. UNICEF is on the front lines, doing whatever it takes to stop children dying from lack of access to clean, safe water and sanitation. Through the UNICEF Tap Project -a nationwide movement to partner with restaurants and volunteers, raising funds and awareness about the global water crisis- we have raised more than $1.5 million dollars and improved the lives of countless children in more than 100 countries around the world.</p>\r\n<p>22,000 children every day. With a focus on access to clean water, we can bring that number closer to ZERO.</p>",
+                    "targets": [
+                        {
+                            "name": "Ban Ki-Moon, UN Secretary-General",
+                            "title": "UN Secretary-General",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "I support the UN's life-saving efforts to accomplish MDG seven: By 2015, halve the proportion of people without sustainable access to safe drinking water and basic sanitation.\n\nSafe drinking water and hygienic sanitation facilities are basic necessities required for health and for success in the fight against poverty, hunger, child deaths and gender inequality around the world. \n\nIt is also central to the human rights and personal dignity of every woman, man and child on earth. \n\nThank you for all that you are doing at the UN on behalf of the world's poorest communities.",
+                    "signature_count": 16608,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/4/xr/bj/wUXRBJxYbeCBJlB-556x313-cropped.jpg",
+                    "category": "Health",
+                    "goal": 25000,
+                    "created_at": "2010-09-22T11:33:26Z",
+                    "end_at": "2010-10-31T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 34851,
+                    "title": "Help Stop Child Trafficking and Exploitation",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/help-stop-child-trafficking-and-exploitation",
+                    "overview": "<p>Children worldwide suffer from abhorrent acts of violence, exploitation and abuse&mdash;horrors no child should ever know or experience.</p>\r\n<p><b>Over 300 million of them are subjected to hazardous physical labor, commercial sex exploitation and child trafficking.</b> Others are irrevocably harmed by cultural practices such as female genital mutilation and early marriage.</p>\r\n<p>Children are especially vulnerable during emergencies and armed conflicts. In countries wracked by violent war and upheaval, children can be separated from their families and fall victim to military conscription or the sex trade.</p>\r\n<p>Without protection from violence and exploitation, children&rsquo;s basic survival and development are at risk. Every day, millions of children are denied their fundamental right to safety and security.</p>\r\n<p><b>Every child should grow up free from fear and harm. Take action and pledge to help end child exploitation.&nbsp;</b></p>",
+                    "targets": [
+                        {
+                            "name": "YOU, take the pledge",
+                            "title": "take the pledge",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "I pledge to do what I can to help end child exploitation.\n\nI also expect governments, NGOs, and international organizations to work together to stop abuse and violence towards children and to protect vulnerable young people through widespread advocacy of legislation, monitoring systems and rehabilitation and recovery programs. \n\nI support advocates who work with communities to address harmful practices and empower children through educational, life-skills and prevention programs.\n",
+                    "signature_count": 31408,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/5/ac/hi/jOaCHISNCJRbPnQ-556x313-cropped.jpg",
+                    "category": "Human Trafficking",
+                    "goal": 35000,
+                    "created_at": "2010-11-12T15:53:39Z",
+                    "end_at": "2011-02-09T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 35218,
+                    "title": "Help Stop the Global Pediatric AIDS Epidemic",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/help-stop-the-global-pediatric-aids-epidemic",
+                    "overview": "<p>The AIDS epidemic began over 25 years ago, and the disease continues to prey upon millions of children around the world. <b>Over 2.3 million children are HIV&ndash;positive, with more than 400,000 children becoming newly infected with HIV / AIDS each year. </b>&nbsp;</p>\r\n<p>This disease affects non&ndash;infected children as well&mdash;many are left orphaned or grow up in communities overwhelmed by the disease. These children are at increased risk of poverty, illiteracy, malnutrition, disease and early death without proper care and support.&nbsp;</p>\r\n<p>As HIV / AIDS continues to take its toll, the disease is also impeding progress in health care, education and quality of life.&nbsp;</p>\r\n<p><b>World AIDS Day is celebrated on December 1st each year around the world.</b> It has become one of the most recognized international health days and a key opportunity to raise awareness, commemorate those who have passed on, and celebrate victories such as increased access to treatment and prevention services.</p>\r\n<p><b>This World AIDS Day, pledge to stand for programs that provide care and education for millions of HIV&ndash;positive children, as well as those who are orphaned by the disease and those who are living with infected caregivers.</b></p>\r\n<p><b></b>Sign the pledge and make a stand for life-saving education programs that teach adolescents and young adults about HIV prevention and communities about the harmful stigmas surrounding the disease. These stigmas, and the discrimination they produce, remain a considerable barrier to testing, treatment and prevention.</p>\r\n<p>By taking action, you are supporting a global movement to care for the victims of this disease and to halt its devastation.</p>",
+                    "targets": [
+                        {
+                            "name": "YOU, take the pledge",
+                            "title": "take the pledge",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "For World AIDS Day, I pledge to stand in support of programs that address the most urgent needs:\n\n--Prevention of mother–to–child transmission through testing and treatment of pregnant women;\n\n--Providing pediatric HIV/AIDS treatment;\n\n--Preventing infection among young people; and\n\n--Protecting and supporting children affected by HIV/AIDS.",
+                    "signature_count": 6655,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/7/bo/un/RsbOunXUNXgbMoV-556x313-cropped.jpg",
+                    "category": "Health",
+                    "goal": 7500,
+                    "created_at": "2010-11-22T19:00:03Z",
+                    "end_at": "2010-12-02T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 38961,
+                    "title": "Help Get Clean, Safe Drinking Water to Those Who Need It Most",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/help-get-clean-safe-drinking-water-to-those-who-need-it-most",
+                    "overview": "<p><strong>Across the globe, 22,000 children die each day from preventable causes</strong>. In Africa, nearly half of those deaths are from diarrheal diseases.</p>\r\n<p>Population forecasts suggest that an additional 632 million people will need to gain access to improved sources to meet the Millennium Development Goal drinking water target. Accelerated progress is needed in sub-Saharan Africa, home to 37% of those without improved drinking water sources.</p>\r\n<p><strong>All told, nearly 900 million people still rely on drinking water sources that are unsafe.</strong></p>\r\n<p>UNICEF is the international leader in providing clean, safe drinking water to millions around the world who need it most. UNICEF is on the front lines, doing whatever it takes to stop children dying from lack of access to clean, safe water and sanitation. &nbsp; &nbsp;</p>\r\n<p>22,000 children every day. With a focus on access to clean water, we can bring that number closer to ZERO.&nbsp;</p>\r\n<p><strong>Take action and sign this petition in support of supplying clean, safe drinking water to the world&rsquo;s poorest populations.&nbsp;</strong></p>",
+                    "targets": [
+                        {
+                            "name": "YOU, Take action!",
+                            "title": "Take action!",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "I support UNICEF's life-saving efforts to get sustainable access to safe drinking water and basic sanitation to the poorest communities around the globe. \n\nSafe drinking water and hygienic sanitation facilities are basic necessities required for health and for success in the fight against poverty, hunger, child deaths and gender inequality around the world. \n\nIt is also central to the human rights and personal dignity of every woman, man and child on earth. \n\n",
+                    "signature_count": 28949,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/4/ci/lb/JFCIlbeNEQrKGQr-556x313-cropped.jpg",
+                    "category": "Human Rights",
+                    "goal": 35000,
+                    "created_at": "2011-02-10T11:39:10Z",
+                    "end_at": "2011-07-01T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 94589,
+                    "title": "320,000 children on the brink - please support relief efforts in Africa",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/320-000-children-on-the-brink-please-support-relief-efforts-in-africa",
+                    "overview": "<p>The American public has been hugely generous in their response to news of the devastating crisis unfolding in East Africa, and life-saving supplies are getting through to children and families affected.</p>\r\n<p><strong>But the humanitarian crisis in East Africa has left more than 320,000 children so severely malnourished that they are at imminent risk of starving to death </strong>unless they get urgent help.  For those suffering, we desperately need to make sure people see and feel the urgency of this crisis and urge them to help if they can.</p>\r\n<p>On Wednesday November 2, 2011, their Royal Highnesses&nbsp;the Duke and Duchess of Cambridge will be making a special visit to UNICEF&rsquo;s global Supply Center in Copenhagen to help put the global spotlight back onto the humanitarian crisis in East Africa.</p>\r\n<p>Please join them and help shine the spotlight on the continuing crisis. Pledge to support additional efforts to provide aid to the many thousands of children who are in need of urgent nutritional and medical help.  As we speak more than 320,000 children are in grave danger and need lifesaving emergency supplies.</p>\r\n<p>So far, UNICEF has delivered more than 10,000 metric tons of supplies to the region, treated 108,000 severely malnourished children in therapeutic feeding centers, vaccinated 1.2 million children against measles and provided 2.2 million people with access to safe water.</p>\r\n<p><strong>Relief organizations like UNICEF desperately need every single person to help them continue their work. Please pledge to support life-saving efforts in the Horn of Africa.</strong></p>",
+                    "targets": [
+                        {
+                            "name": "You",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "I want to help shine the spotlight on the continuing crisis in Africa. I pledge to support additional efforts to provide aid to the many thousands of children who are in need of urgent nutritional and medical help.  ",
+                    "signature_count": 16173,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/5/rs/ec/SfrSecocReWyxbA-556x313-cropped.jpg",
+                    "category": "Human Rights",
+                    "goal": 25000,
+                    "created_at": "2011-10-28T15:22:09Z",
+                    "end_at": "2012-01-29T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 153537,
+                    "title": "Stop the killing and recruitment of children in Somalia's conflict",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/stop-the-killing-and-recruitment-of-children-in-somalias-conflict",
+                    "overview": "<p>Increasing numbers of children and civilians are being caught in attacks and crossfire across the south and center of Somalia.</p>\r\n<p><strong>Nearly 300 children have been seriously injured and more than 100 children killed in the on-going conflict.&nbsp;</strong></p>\r\n<p>UN's monitors have also confirmed that more than 600 children have been recruited and used for armed service. In addition, more than 200 children, mostly girls, reportedly have been raped.&nbsp;</p>\r\n<p>The UN estimates there are likely many more killings and injuries of children either unconfirmed or unreported.&nbsp;</p>\r\n<p><strong>Somali children's lives are being put more and more in grave danger with the increasing conflict.&nbsp;</strong>There has been a marked increase in killings and serious injuries of children in recent months.&nbsp;</p>\r\n<p>The United Nations has raised serious concerns about the recruitment and use of children for armed forces and sexual violence of children and women.</p>\r\n<p>Stand with the UN and call on all parties to the conflict in Somalia to stop all killing, maiming, recruitment for armed services and rape of children.  All children must immediately be assured of safety and protection from hostile acts.</p>",
+                    "targets": [
+                        {
+                            "name": "You",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "Somali children's lives are being put more and more in grave danger with the increasing conflict.  I stand with the US. Fund for UNICEF and call on all parties to the conflict in Somalia to stop all killing, maiming, recruitment for armed services and rape of children.  \n\nAll children must immediately be assured of safety and protection from hostile acts. ",
+                    "signature_count": 39553,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/9/uz/bh/rUUzBhqFjDRHdcc-556x313-cropped.jpg",
+                    "category": "Human Rights",
+                    "goal": 50000,
+                    "created_at": "2011-11-29T20:41:28Z",
+                    "end_at": "2012-03-03T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 208745,
+                    "title": "Help protect girls, stop child marriage",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/help-protect-girls-stop-child-marriage",
+                    "overview": "<p>Throughout the world, marriage is celebrated as a happy event. But for some children - mostly girls who have a husband forced upon them - their wedding marks a premature end to their childhood.</p>\r\n<p><strong>Child marriage is a harmful traditional practice and a violation of human rights.</strong> In five countries of Sub-Saharan Africa and in Bangladesh, more than 60% of women were married before the age of 18. Child marriage is more common in rural settings than in urban ones and more common in poor families than in wealthier ones. Education is critical; women with primary education are significantly less likely to be married as children than those who received no education.</p>\r\n<p><strong>Child marriage often leads to separation from family and friends, lack of freedom, and decreased opportunities for education and economic participation.</strong></p>\r\n<p>Because early marriage is usually tied to early pregnancy, girls married at a young age also face serious health risks - a girl under age 16 is five times more likely to die in pregnancy or childbirth than a woman between the ages of 20 to 24.</p>\r\n<p>Though the United States supports many programs that assist children and mothers, there is no specific U.S. Government focus on the problem of child marriage.</p>\r\n<p>Bipartisan legislation in both the House of Representatives and the Senate would bolster U.S. efforts to prevent child marriage. Both bills require a strategy to incorporate child marriage prevention into existing development, health, and education programs; and set aside funding for programs to prevent child marriage.</p>\r\n<p><strong>Tell Congress to fight child marriage and save lives of underage girls all over the world.</strong></p>",
+                    "targets": [
+                        {
+                            "name": "Congress",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "Child marriage is a harmful traditional practice and a violation of human rights. Even so, it is a fact of life for too many children around the world. In some areas of the world, marriage at age 10 or even younger is not uncommon. Child marriage often leads to separation from family and friends, lack of freedom to interact with peers and participate in community activities, and decreased opportunities for education and economic participation.\n\nGirls married at a young age face serious health risks from pregnancy and childbirth. Girls under age 16 are five times more likely to die in pregnancy or childbirth than women ages 20 to 24; girls ages 16 to 19 are twice as likely to die during pregnancy or childbirth as women in their twenties. In addition, childhood pregnancy leads to stunting for both mother and baby, often irreversible.\n\nThere are proven approaches that help communities around the world abandon the practice of child marriage. Although the United States supports many programs that assist children and mothers, there is no specific U.S. Government strategy or funding to tackle the problem of child marriage. This bipartisan legislation would change that, requiring the United States to develop a strategy to help prevent child marriage and help protect girls' health and education. In addition, it authorizes U.S. foreign assistance programs that focus on preventing child marriage.\n\nHelp ensure that our Government is a leader in addressing child marriage.",
+                    "signature_count": 9,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/4/be/zd/smBezDrhwpQXfmZ-556x313-cropped.jpg",
+                    "category": "Women's Rights",
+                    "goal": 100,
+                    "created_at": "2012-01-10T01:20:26Z",
+                    "end_at": "2012-04-10T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                },
+                {
+                    "petition_id": 214221,
+                    "title": "Protect children from dirty water and save their lives.",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/protect-children-from-dirty-water-and-save-their-lives",
+                    "overview": "<p>Nearly 900 million people around the world - half of them children - rely on unsafe water sources and 2.5 billion people live without proper sanitation. Lack of access to clean water is a major health issue:  diarrheal disease related to poor water and sanitation is one of the top causes of child deaths in the world.</p>\r\n<p><strong>Clean water and good sanitation does more than just save lives, it can turn lives around. </strong>When children no longer struggle with stomach problems, they can go to school and get an education. Girls can attend school instead of spending hours every day fetching water.</p>\r\n<p>Senators Dick Durbin (D-IL) and Bob Corker (R-TN) introduced the bipartisan Senator Paul Simon Water for the World Act (S. 641). This bill would strengthen America's ability to build partnerships to provide clean water and sanitation to 100 million of the poorest people in the world. This legislation builds on the landmark Water for the Poor Act of 2005, which at long last made safe drinking water and sanitation a priority of U.S. foreign development assistance.</p>\r\n<p>It's important to note that S. 641 does not propose new and costly water programs. In fact, the U.S. Government already provides significant funding to improve access to clean water and sanitation in poor countries. This bill does establish a specific goal: reach 100 million people with first-time access to clean drinking water and sanitation. It calls for global cooperation on research and technology development and provides seed money to spur the deployment of clean water and sanitation technologies.</p>\r\n<p><strong>We take clean water for granted but nearly 900 million people around the world can&rsquo;t. Contact your Senators today in support of the Water for the World Act.</strong></p>",
+                    "targets": [
+                        {
+                            "name": "U.S. Senate",
+                            "type": "us_government"
+                        }
+                    ],
+                    "letter_body": "I am writing to urge you to cosponsor S. 641, the Senator Paul Simon Water for the World Act.\n\nAs Americans, most of us take clean water and basic sanitary facilities for granted. Yet more than 900 million people do not have access to safe water and 2.5 billion people live without proper sanitation. Diarrhea and disease caused by lack of safe water and poor sanitation kill 4,000 children a day worldwide.\n\nAccess to clean water does more than just save lives, it can turn lives around. When children no longer struggle with recurring illness, they can go to school and get an education. Girls, especially, often miss out on school because they spend hours every day fetching water from distant sources. When schools lack appropriate sanitation facilities, girls are more likely to drop out. UNICEF reports that over half of the world's schools lack safe water and sanitation.\n\nI believe that zero children should die or miss school from the lack of clean water. Senators Durbin and Corker introduced bipartisan legislation to reinforce U.S. investment in water and sanitation worldwide. S. 641 does not propose funding a new and expensive program; rather, it would make current programs more efficient and better targeted. The bill would help a hundred million people have access to safe water and improved sanitation.\n\nPlease help save the lives of children around the world by cosponsoring S. 641. I look forward to your response. Thank you for your consideration. ",
+                    "signature_count": 9844,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/8/nb/hr/dDNbHRzAMltgPGu-556x313-cropped.jpg",
+                    "category": "Health",
+                    "goal": 10000,
+                    "created_at": "2012-01-13T23:41:29Z",
+                    "end_at": "2012-04-15T23:59:59Z",
+                    "creator_name": null,
+                    "creator_url": null,
+                    "organization_name": "U.S. Fund for UNICEF",
+                    "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+                }
+            ]
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Sun, 01 Feb 2015 15:30:00 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d761b8d45315aee722a94ada7a12062531422804600; expires=Mon, 01-Feb-16 15:30:00 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=4da8e3d1b9c4490c8063018493d8a850; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22956de65e-9a51-47ba-a3c0-c8616685a361%22%7D; path=/; expires=Sun, 01-Feb-2015 16:15:00 GMT",
+                "_change_session=a3a138e93716646f44fa680bd04f3b0c; domain=.change.org; path=/; expires=Sun, 01-Feb-2015 16:15:00 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"b1320b2cef37efa214b1e4ad175d092e\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "cd6127f18c4b6deaf7637ca77ec5e6da",
+            "x-runtime": "0.676803",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-00",
+            "cf-ray": "1b1f300f6a791092-MDE"
+        }
+    }
+]

@@ -1,0 +1,39 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/organizations/get_id?organization_url=http%3A%2F%2Fwww.change.org%2Forganizations%2Funicefusa&api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "result": "success",
+            "organization_id": 5848
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Sun, 01 Feb 2015 15:29:58 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d260f1e399ac54bc62aad260e6123cbab1422804597; expires=Mon, 01-Feb-16 15:29:57 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=c22cf44a1429437aba61a57a8176c6e1; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%229114c844-83d0-4fe2-a0d3-6a56be6caea3%22%7D; path=/; expires=Sun, 01-Feb-2015 16:14:58 GMT",
+                "_change_session=d09060e405776c85708ce31967f05d0d; domain=.change.org; path=/; expires=Sun, 01-Feb-2015 16:14:58 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"f20eb96c55aa6ae46283f4c37864f250\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "5483d4f686a771e2f59bfac8212c9f66",
+            "x-runtime": "0.101296",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-metal-05",
+            "cf-ray": "1b1f2ffffc3a1092-MDE"
+        }
+    }
+]

@@ -44,6 +44,7 @@ module.exports = function client(options) {
 
   return {
     petitions: require('./petitions')(_request),
-    users: require('./users')(_request)
+    users: require('./users')(_request),
+    organizations: require('./organizations')(_request)
   };
 };

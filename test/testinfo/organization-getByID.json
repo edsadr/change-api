@@ -1,0 +1,49 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/organizations/5848?api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "organization_id": 5848,
+            "name": "U.S. Fund for UNICEF",
+            "location": "125 Maiden Lane\nNew York, NY 10038",
+            "address": "125 Maiden Lane",
+            "city": "New York",
+            "state_province": "NY",
+            "postal_code": "10038",
+            "country_name": "Estados Unidos",
+            "country_code": "US",
+            "website": "http://www.unicefusa.org",
+            "mission": "As the oldest of 36 national committees for UNICEF throughout the world, the mission of the U.S. Fund for UNICEF is to promote the survival, protection, and development of all children worldwide through fundraising, advocacy, and education.  Our work is accomplished through a collaborative tapestry of individuals, non-governmental organizations, corporate partners, faith-based organizations, the media, grass-roots groups, and children themselves, all of whom have joined UNICEF to help shape a world where the basic needs and human rights of every child are realized.  A world where all children share in the joy and promise of childhood, realizing their rights to dignity, security, and self-fulfillment.<br />Since 1947, we have provided more than $1.6 billion in cash and Gifts-in-Kind (donated supplies and services) to assist UNICEF?s lifesaving programs.",
+            "organization_url": "https://api.change.org/es-LA/organizaciones/unicefusa"
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Sun, 01 Feb 2015 15:29:59 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d35f498a3c56d74566252aeb68ee45a631422804599; expires=Mon, 01-Feb-16 15:29:59 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=cd6982a126a94576908d3490bcdbe710; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22a97802ce-5443-4521-8ce5-741b9bf87702%22%7D; path=/; expires=Sun, 01-Feb-2015 16:14:59 GMT",
+                "_change_session=d9ee76a45ea8e0dbb9362ed307419087; domain=.change.org; path=/; expires=Sun, 01-Feb-2015 16:14:59 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"b8765d739c3600e29250c0d3b957019a\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "4465e325018bc60989786995c94bff6b",
+            "x-runtime": "0.130636",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-20",
+            "cf-ray": "1b1f300868121092-MDE"
+        }
+    }
+]

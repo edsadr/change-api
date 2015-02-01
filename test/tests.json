@@ -147,6 +147,75 @@
 					"status": 404
 				}
 			]
+		},
+		{
+			"resource": "organizations",
+			"cases": [
+				{
+					"name": "organization-getIdByUrl",
+					"method": "getIdByUrl",
+					"args": "http://www.change.org/organizations/unicefusa",
+					"behavior": "It should get a organization ID by URL",
+					"url": "organizations/get_id",
+					"verb": "GET",
+					"params": {
+						"organization_url": "http://www.change.org/organizations/unicefusa"
+					},
+					"status": 200
+				},
+				{
+					"name": "organization-getIdByUrlFailed",
+					"method": "getIdByUrl",
+					"args": "wrongurl",
+					"behavior": "It should fail getting a organization ID by a wrong URL",
+					"url": "organizations/get_id",
+					"verb": "GET",
+					"params": {
+						"organization_url": "wrongurl"
+					},
+					"status": 404
+				},
+				{
+					"name": "organization-getByID",
+					"method": "getByID",
+					"args": "5848",
+					"behavior": "It should get a organization by ID",
+					"url": "organizations/5848",
+					"verb": "GET",
+					"params": {},
+					"status": 200
+				},
+				{
+					"name": "organization-getByIDFailed",
+					"method": "getByID",
+					"args": "wrongid",
+					"behavior": "It should fail getting a organization by a wrong ID",
+					"url": "organizations/wrongid",
+					"verb": "GET",
+					"params": {},
+					"status": 404
+				},
+				{
+					"name": "organization-getPetitions",
+					"method": "getPetitions",
+					"args": "5848",
+					"behavior": "It should get all organization's petitions",
+					"url": "organizations/5848/petitions",
+					"verb": "GET",
+					"params": {},
+					"status": 200
+				},
+				{
+					"name": "organization-getPetitionsFailed",
+					"method": "getPetitions",
+					"args": "wrongid",
+					"behavior": "It should fail getting all organization's petitions with a wrong ID",
+					"url": "organizations/wrongid/petitions",
+					"verb": "GET",
+					"params": {},
+					"status": 404
+				}
+			]
 		}
 	]
 }

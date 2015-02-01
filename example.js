@@ -4,6 +4,8 @@ var petitionUrl = 'https://www.change.org/p/simon-rodwell-teach-the-javascript-m
   usersUrl = 'https://www.change.org/users/edsadr',
   petitionID = '1678685',
   userID = '17118355',
+  organizationUrl = 'http://www.change.org/organizations/unicefusa',
+  organizationID = '5848',
   apiKey = process.env.CHANGE_API_KEY;
 
 var client = changeApi.createClient({
@@ -41,6 +43,21 @@ client.users.getPetitions(userID,
   });
 
 client.users.getSignatures(userID,
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.organizations.getIdByUrl(organizationUrl,
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.organizations.getByID(organizationID,
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.organizations.getPetitions(organizationID,
   function (err, res, body) {
     console.log(body);
   });
