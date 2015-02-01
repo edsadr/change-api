@@ -105,6 +105,46 @@
 					"verb": "GET",
 					"params": {},
 					"status": 404
+				},
+				{
+					"name": "user-getPetitions",
+					"method": "getPetitions",
+					"args": "17118355",
+					"behavior": "It should get all user's petitions",
+					"url": "users/17118355/petitions",
+					"verb": "GET",
+					"params": {},
+					"status": 200
+				},
+				{
+					"name": "user-getPetitionsFailed",
+					"method": "getPetitions",
+					"args": "wrongid",
+					"behavior": "It should fail getting all user's petitions with a wrong ID",
+					"url": "users/wrongid/petitions",
+					"verb": "GET",
+					"params": {},
+					"status": 404
+				},
+				{
+					"name": "user-getSignatures",
+					"method": "getSignatures",
+					"args": "17118355",
+					"behavior": "It should get all user's signatures",
+					"url": "users/17118355/signatures/petitions",
+					"verb": "GET",
+					"params": {},
+					"status": 200
+				},
+				{
+					"name": "user-getSignaturesFailed",
+					"method": "getSignatures",
+					"args": "wrongid",
+					"behavior": "It should fail getting all user's signatures with a wrong ID",
+					"url": "users/wrongid/signatures/petitions",
+					"verb": "GET",
+					"params": {},
+					"status": 404
 				}
 			]
 		}

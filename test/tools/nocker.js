@@ -53,7 +53,7 @@ nocker.testRequirements = function (client, resource, method) {
 nocker.createTest = function (client, resource, ctest) {
 
   client[resource][ctest.method](ctest.args, function (err, res, body) {
-    describe('change-api user endpoint method ' + ctest.method, function () {
+    describe('change-api '+resource+' endpoint method ' + ctest.method, function () {
       it(ctest.behavior, function () {
         expect(res.statusCode).to.be.equal(ctest.status);
       });

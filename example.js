@@ -34,3 +34,13 @@ client.users.getByID(userID,
   function (err, res, body) {
     console.log(body);
   });
+
+client.users.getPetitions(userID,
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.users.getSignatures(userID,
+  function (err, res, body) {
+    console.log(body);
+  });

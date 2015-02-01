@@ -1,0 +1,419 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/users/17118355/signatures/petitions?api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "page": 1,
+            "prev_page_endpoint": null,
+            "next_page_endpoint": null,
+            "total_pages": 1,
+            "petitions": [
+                {
+                    "petition_id": 2350636,
+                    "title": "Devuélvanme el dinero robado de mi cuenta. @Bancolombia @Inv_Bancolombia",
+                    "status": "open",
+                    "url": "https://api.change.org/p/devu%C3%A9lvanme-el-dinero-robado-de-mi-cuenta-bancolombia-inv-bancolombia",
+                    "overview": "<p class=\"MsoNormal\">Mi nombre es Peter, tengo 65 años, y <strong>soy v</strong><strong>íctima</strong><strong> de Bancolombia</strong>. Hace unos años, <strong>en menos de una hora todos mis ahorros para la vejez, y mis sue</strong><strong>ños</strong><strong> se esfumaron.</strong> Fui víctima de un fraude bancario, en donde delincuentes falsificaron mi firma, cobraron todo el dinero que tenía en mi cuenta, y <strong>pese a que la justicia demostr</strong><strong>ó</strong><strong> que fue un fraude, Bancolombia no hizo nada, y no ha devuelto el dinero que me pertenece.</strong></p>\n<p class=\"MsoNormal\">Luego de que mi chequera fue robada, varios cheques fueron cobrados y pagados en oficinas de Bancolombia, en tan solo una hora, sin que para el banco fuera extraño dicho proceder. E<strong>n una hora cobraron 20 cheques por un valor de m</strong><strong>ás</strong><strong> de $28 millones, en 7 sucursales diferentes el banco. </strong>Me enteré solo cuando desocuparon la cuenta. Ahí sí se comunicaron conmigo para preguntarme si autorizaba un sobregiro.</p>\n<p class=\"MsoNormal\">Después de hacer la denuncia, y tras <strong>la investigaci</strong><strong>ón</strong><strong> de la Fiscal</strong><strong>ía</strong><strong>, que demostr</strong><strong>ó</strong><strong> que los cheques efectivamente eran robados y la firma falsa.</strong> <strong>Bancolombia se lav</strong><strong>ó</strong><strong> las manos</strong>, respondiendo que el que se hubieran pagado los cheques, era mi responsabilidad, y por lo tanto ellos no reconocieron ni un peso de todo lo que me robaron.</p>\n<p class=\"MsoNormal\">Desde entonces, no he descansado, y he seguido luchando porque Bancolombia  asuma su responsabilidad. El 4 de octubre me dieron un nuevo número de radicado, abriendo una nueva investigación. He enviado todos los documentos que se han solicitado, a través de los canales de comunicación. Sin embargo, hoy 8 de diciembre, <strong>con gran extra</strong><strong>ñeza</strong><strong>, decepci</strong><strong>ón</strong><strong>, rabia y desilusi</strong><strong>ón</strong><strong> (adicional a la afectaci</strong><strong>ón</strong><strong> econ</strong><strong>ómica</strong><strong>) no he recibido respuesta alguna. Y sigo a la espera de que me devuelvan lo que me corresponde.</strong></p>\n<p class=\"MsoNormal\">Señores Bancolombia, <strong>tres largos a</strong><strong>ños</strong><strong> son suficientes para esperar que me devuelvan mi dinero que fue sustra</strong><strong>ído</strong><strong> por la irresponsabilidad de su personal</strong>, quienes no verificaron si la firma que tenían los cheques correspondían a la registrada por mí. Además de no haber alertado por la extraña circunstancia de que 20 cheques fueron cobrados en menos de una hora.</p>\n<p class=\"MsoNormal\"><strong>Exijo una respuesta, y que mi dinero sea devuelto de inmediato</strong>, pues el perjuicio que se me ha ocasionado es muy grande! <strong>Eran los ahorros de toda la vida, perdidos en un “ratico”, del sitio donde supuestamente estaban seguros</strong>.</p>\n<p class=\"MsoNormal\">Gracias por apoyar mi petición, para que no sigamos siendo víctimas de los bancos.</p>",
+                    "targets": [
+                        {
+                            "name": "JOHANA VASCO VELEZ, ANALISTA DE PRENSA",
+                            "title": "ANALISTA DE PRENSA",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Martha Elena Acosta B., Directora de Comunicaciones Corporativas",
+                            "title": "Directora de Comunicaciones Corporativas",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Felipe Mora Sarria, Gerente Regional Sur",
+                            "title": "Gerente Regional Sur",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Jorge Eduardo Mujica Ospína, Gerente Regional Bogotá y Centro",
+                            "title": "Gerente Regional Bogotá y Centro",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Lucila María Mendoza Henriquez, Gerente Regional Cali",
+                            "title": "Gerente Regional Cali",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Melhem Daccach, Gerente Regional Mesa Mesa Cali",
+                            "title": "Gerente Regional Mesa Mesa Cali",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "SOLICITO A BANCOLOMBIA QUE ME DEVUELVA EL DINERO QUE FUE SUSTRAIDO DE MI CUENTA DE MANERA FRAUDULENTA E ILICITA HACE TRES AÑOS.",
+                    "signature_count": 11985,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/3/xc/nt/GzXCNtFOSXbNuFv-556x313-cropped.jpg",
+                    "category": "Economic Justice",
+                    "goal": 15000,
+                    "created_at": "2014-12-08T20:18:25Z",
+                    "end_at": "2015-12-08T23:59:59Z",
+                    "creator_name": "PETER MARTIN",
+                    "creator_url": "https://api.change.org/u/15836897",
+                    "organization_name": null,
+                    "organization_url": null
+                },
+                {
+                    "petition_id": 2163444,
+                    "title": "@Supersalud Saludcoop, autorice el ingreso de Sofi al Instituto de Rehabilitación Infantil Emmanuel IPS de Facatativá.",
+                    "status": "victory",
+                    "url": "https://api.change.org/p/supersalud-saludcoop-autorice-el-ingreso-de-sofi-al-instituto-de-rehabilitaci%C3%B3n-infantil-emmanuel-ips-de-facatativ%C3%A1",
+                    "overview": "<p>Mi nombre es Paula y soy la mamá de Sofía. Ella ya tiene tres años y <strong>desde que nació le diagnosticaron síndrome de criduchat</strong>, una malformación <strong>que le provoca retraso psíquico y físico en su desarrollo, lo que significa que su crecimiento y desarrollo es más lento de lo normal.</strong></p>\n<p>Tuve suerte cuando los médicos le dieron el diagnostico temprano, pero no tuve suerte cuando me entere que <strong>mi hija puede convertirse en un vegetal sin las terapias y la estimulación que necesita. De solo pensarlo se me hunde el mundo y se me cae todo para abajo.</strong></p>\n<p>A pesar de tener 3 años, <strong>Sofi tiene muy retrasado su desarrollo de lenguaje, se alimenta solamente de licuados porque no sabe masticar y usa audífonos en sus dos oídos para poder escucharnos a mi y a su abuelo</strong>, quienes somos los únicos que cuidamos de ella.</p>\n<p>Por el momento <strong>ella requiere terapias integrales físicas, auditivas y visuales, entre otras.Terapias que la EPS Saludcoop no le da, pues se niega a autorizar el ingreso de mi hija al Instituto de Rehabilitacion y Habilitacion Infantil Emanuel IPS</strong>, incluso cuando los especialistas de la misma EPS indicaron que ella debe ser tratada en el Emanuel.</p>\n<p><strong>La estimulación precoz y las terapias integrales</strong> que brinda el Instituto Emmanuel, <strong>son imprescindibles para avanzar en el desarrollo de Sofi</strong>, para que pueda comer, hablar y socializar con otros niños de su edad.</p>\n<p>Te pido me ayudes firmando esta petición para que Sofi tenga acceso a las terapias y pueda llevar una vida digna.</p>\n<p>Gracias,</p>\n<p>Paula Ramirez</p>",
+                    "targets": [
+                        {
+                            "name": "JAVIER ANDRES CORREA QUICENO",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "SaludCoop Eps, Representante legal",
+                            "title": "Representante legal",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Gustavo Enrique Morales Cobo, Despacho Superintendente Nacional de Salud",
+                            "title": "Despacho Superintendente Nacional de Salud",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "James Hares Chaid Franco, Despacho Secretario General",
+                            "title": "Despacho Secretario General",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Adolfo León Varela Sánchez, Despacho Superintendente Delegado para la Protección al Usuario",
+                            "title": "Despacho Superintendente Delegado para la Protección al Usuario",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "Quiero que mi hija Sofía Bayona Ramirez ingrese al Instituto de rehabilitación Infantil Emmanuel IPS de Facatativá, fue diagnosticada con Síndrome de Criduchat.",
+                    "signature_count": 15694,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/7/pi/rv/jopIrvgbZUcOAHW-556x313-cropped.jpg",
+                    "category": "Health",
+                    "goal": 25000,
+                    "created_at": "2014-10-21T19:30:36Z",
+                    "end_at": "2014-12-03T23:59:59Z",
+                    "creator_name": "Paula Ramirez",
+                    "creator_url": "https://api.change.org/u/168847179",
+                    "organization_name": null,
+                    "organization_url": null
+                },
+                {
+                    "petition_id": 1722840,
+                    "title": "Exijan incluir la información de OGM (Organísmos Geneticamente Modificados) en las etiquetas de Información Nutricional de productos alimenticios y stickers de frutas y vegetales.",
+                    "status": "open",
+                    "url": "https://api.change.org/p/exijan-incluir-la-informaci%C3%B3n-de-ogm-organ%C3%ADsmos-geneticamente-modificados-en-las-etiquetas-de-informaci%C3%B3n-nutricional-de-productos-alimenticios-y-stickers-de-frutas-y-vegetales",
+                    "overview": "<p><strong>Soy Tomás, desde que Mateo y Lucas nacieron empecé a preocuparme por lo que comeríamos en casa, así como a preguntarme eso que todos los papás nos preguntamos, ¿qué es lo mejor para mis hijos?</strong>. Empecé a averiguar por mi cuenta y a oír sobre los OGM (Organismos Genéticamente Modificados) y los transgénicos<strong>; así descubrí los posibles efectos nocivos del consumo de este tipo de ingredientes que, sin información o una etiqueta que los diferencie, compramos como algo natural sin que sean fruto directo de la tierra, sino diseñados en un laboratorio.</strong></p>\n<p>Los productos que contengan organismos genéticamente modificados no sólo tienen efectos ambientales, agrarios y sociales; sino también, Como lo sostienen múltiples estudios científicos independientes, <strong>sobre la salud de las personas.</strong> <strong><br></strong></p>\n<p>Las consecuencias de ingerir alimentos resultado de estas manipulaciones genéticas pueden ser lo suficientemente importantes como para que nos avisen que los estamos consumiendo. <strong>Este nivel de riesgo debe anunciarse en una etiqueta. No es justo que no tengamos el derecho de saber lo que nos comemos y llevamos a nuestro organismo.</strong></p>\n<p>Las industrias farmacéutica, tabacalera y de licores ya fueron obligadas a incorporar en sus productos etiquetas que advierten los riesgos que genera su consumo. <strong>El INVIMA</strong> (Instituto Nacional de Vigilancia de Medicamentos y Alimentos), <strong>debe incluir en la etiqueta de información nutricional de los productos alimenticios o en los stickers de las frutas y vegetales, si estos contienen uno o más OGM o si por el contrario, no los contienen, para que el consumidor pueda ejercer su derecho a recibir información y derecho de elección (artículo 3o numerales 1.3 y 1.7 de la ley 1480 de 2011.</strong></p>\n<p>En nuestra región,<strong> países como Perú y Ecuador ya tienen leyes que dan este derecho a la información para los consumidores </strong>y está en la mano de cada uno elegir qué come y a qué riesgos se expone. <strong>Ya es hora de que en Colombia también las tengamos.</strong></p>\n<p>Si somos lo que comemos, como padre y consumidor, estoy seguro de que tenemos el derecho a elegir.</p>\n<p> </p>",
+                    "targets": [
+                        {
+                            "name": "INVIMA Instituto Nacional de Vigilancia de Medicamentos y Alimentos., Atención al Ciudadano",
+                            "title": "Atención al Ciudadano",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Sr. Alejandro Gaviria Uribe, Ministro de Salud y Protección Social. República de Colombia",
+                            "title": "Ministro de Salud y Protección Social. República de Colombia",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Sr. Ana Patricia Heredia Mora, Subdirectora de Salud Nutricional, Alimentos y Bebidas. Ministerio de Salud. Colombia.",
+                            "title": "Subdirectora de Salud Nutricional, Alimentos y Bebidas. Ministerio de Salud. Colombia.",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Confederación Colombiana de Consumidores, Presidente Confederación Colombiana de Consumidores. Colombia.",
+                            "title": "Presidente Confederación Colombiana de Consumidores. Colombia.",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "Incluyan información de OGM (Organísmos Geneticamente Modificados) en las etiquetas de Información Nutricional y stickers de los alimentos.",
+                    "signature_count": 17841,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/1/ao/uv/hCaOuvWuvCtKLAe-556x313-cropped.jpg",
+                    "category": "Health",
+                    "goal": 25000,
+                    "created_at": "2014-06-24T17:28:43Z",
+                    "end_at": "2015-06-24T23:59:59Z",
+                    "creator_name": "tomás corredor",
+                    "creator_url": "https://api.change.org/u/41930385",
+                    "organization_name": null,
+                    "organization_url": null
+                },
+                {
+                    "petition_id": 2090364,
+                    "title": "Transplante de médula osea para Camila en el MD Anderson Cancer Center @sanitas_atiende @Supersalud @agaviriau @sanitas @clin_colsanitas",
+                    "status": "open",
+                    "url": "https://api.change.org/p/transplante-de-m%C3%A9dula-osea-para-camila-en-el-md-anderson-cancer-center-sanitas-atiende-supersalud-agaviriau-sanitas-clin-colsanitas",
+                    "overview": "<p class=\"MsoNormal\">En Colombia<strong>, Camila Abuabara</strong> inicio una batalla legal contra su <strong>EPS</strong> (empresa promotora de salud) <strong>SANITAS</strong>, para un tratamiento digno en su condición de salud, pues padece <strong>LEUCEMIA LINFOIDE AGUDA</strong>, un tipo de Cancer en la sangre, enfermedad que impide que se formen células sanguíneas saludables, que progresivamente va llevando a la muerte. El apoyo de muchos colombianos en movilizaciones públicas, redes sociales, juridicamente, y a través de programas de TV, llevo a hacer eco ante el ministro de salud Alejandro Gaviria, e impulso en ultimas instancias a <strong>SANITAS</strong>, a realizar tratamiento en Texas-USA, en el <strong>MD Anderson Cancer Center</strong>, donde optimizaron las terapias anticancerigenas y lograron liberar a Camila de esta penosa enfermedad. <strong><em>Finalmente para no ver mas secuelas de Cancer en Camila, o recidivas, que el Cancer no regrese nunca más, debe hacerse un transplante de medula solo en el centro donde fue tratada,</em> pues la tecnología usada no es convencional con la de Colombia, el riesgo de no hacerlo radica en que en Colombia no existe el tratamiento recibido en donde fue tratada, y si recae sería letal, perdiendo la única oportunidad para rescatar su vida</strong><strong>. Puede ser nuestra hija, prima, hermana, o madre, un ser humano que debe vivir saludable y dignamente, miles apoyamos y pedimos a miles más, apoyar esta noble causa hermanos y hermanas, la larga lucha de Camila Abuabara contra un agresivo Cancer esta cerca de terminar y con un final feliz.</strong> Les comparto: 1) <a href=\"https://www.facebook.com/photo.php?fbid=10152340439951994&amp;set=a.10151207329496994.448085.703321993&amp;type=1&amp;theater\" rel=\"nofollow\">https://www.facebook.com/photo.php?fbid=10152340439951994&amp;set=a.10151207329496994.448085.703321993&amp;type=1&amp;theater</a> 2) <a href=\"https://www.facebook.com/groups/836788616336734/?fref=ts\" rel=\"nofollow\">https://www.facebook.com/groups/836788616336734/?fref=ts</a></p>",
+                    "targets": [
+                        {
+                            "name": "Carolina Buendia, Presidente Sanitas EPS",
+                            "title": "Presidente Sanitas EPS",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Juan Pablo Rueda, Gerente de Salud Sanitas EPS",
+                            "title": "Gerente de Salud Sanitas EPS",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Alejandro Gaviria, Ministro de Salud de la República de Colombia",
+                            "title": "Ministro de Salud de la República de Colombia",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "Un trasplante de médula osea para Camila Abuabara en el MD Anderson Cancer Center, para un final definitivo en su lucha contra el CANCER, y evitar una recaída posterior en su larga lucha por vivir.",
+                    "signature_count": 14600,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/7/ws/kj/mDwSKJprAZzgDBT-556x313-cropped.jpg",
+                    "category": "End Sex Trafficking",
+                    "goal": 15000,
+                    "created_at": "2014-10-02T01:10:12Z",
+                    "end_at": "2015-10-02T23:59:59Z",
+                    "creator_name": "Anthony Gomez",
+                    "creator_url": "https://api.change.org/u/91730000",
+                    "organization_name": null,
+                    "organization_url": null
+                },
+                {
+                    "petition_id": 1969730,
+                    "title": "Que le garanticen tratamiento a mi hija @Saludtolima @Supersalud @agaviriau",
+                    "status": "victory",
+                    "url": "https://api.change.org/p/que-le-garanticen-tratamiento-a-mi-hija-saludtolima-supersalud-agaviriau",
+                    "overview": "<p class=\"MsoNormal\">Mi nombre es María Esperanza soy la mamá de <strong>Mariana que tiene 5 años</strong>. A los 3 años<strong> le diagnosticaron una rara enfermedad conocida como “Púrpura”</strong> que <strong>causa hemorragias, debilita las plaquetas y ataca severamente el bazo, el riñón y se manifiesta con sangrado bajo la piel. El unico hospital que la puede ayudar le niega la atención, ella necesita tratamiento ya.</strong></p>\n<p class=\"MsoNormal\">Al principio los pediatras de <strong>Cafesalud E.P.S. le diagnosticaron un brote</strong>, pero cuando empezó a tener fiebre, sangrado y dificultad para respirar acudimos con lo poco que teníamos a un p<strong>ediatra particular, que confirmo que lo que Mariana tenía era Purpura, una enfermedad catalogada como cáncer</strong>.</p>\n<p class=\"MsoNormal\">Ella <strong>necesita</strong> estar bajo <strong>supervisión médica con controles cada 3 meses en el Hospital Federico Lleras de Ibagué</strong>, <strong>el único con atención de oncología pediátrica en la región.</strong> Yo vivo en Ortega lo que implica un viaje de dos horas hasta la capital y de ahí al hospital. No tengo muchos recursos pero como madre la salud de mi Marianita no tiene precio.</p>\n<p class=\"MsoNormal\">El mayor problema para mi es que <strong>Cafesalud no tiene convenio con el Federico Lleras, pero más grave aún es que el Federico Lleras le niega la atención incluso particular a mi hija.</strong> <strong> </strong></p>\n<p class=\"MsoNormal\"><strong>¡Mi hija necesita realizarse los exámenes, ya! Es muy peligroso para ella no tener tratamiento. Traté de contactarme con las autoridades, pero nadie nos presta atención.</strong></p>\n<p class=\"MsoNormal\"><strong> </strong><strong>¡Ninguna autoridad nos ayuda! </strong>Solo pido que se ayude a mi hija a realizarse los exámenes y pueda llevar su enfermedad con dignidad. Ayúdame firmando la <strong>petición.</strong></p>\n<p class=\"MsoNormal\">Lo que le pasa con mi hija es un ejemplo de lo que pasa con la salud en el Tolima.</p>\n<p class=\"MsoNormal\">Mil gracias,</p>\n<p class=\"MsoNormal\">María Esperanza</p>",
+                    "targets": [
+                        {
+                            "name": "Hospital Federico Lleras Acosta, Hospital Federico Lleras Acosta",
+                            "title": "Hospital Federico Lleras Acosta",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Secretaria de salud Tolima",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Jose Raúl, Gerente Hospital Federico Lleras Acosta",
+                            "title": "Gerente Hospital Federico Lleras Acosta",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Claudia Ilse Echeverry, Subgerente Hospital Federico Lleras Acosta",
+                            "title": "Subgerente Hospital Federico Lleras Acosta",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Luís Carlos Delgado, Gobernador del Tolima",
+                            "title": "Gobernador del Tolima",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Margarita del Pilar Zapata Arango, Secretaria de Salud del Tolima",
+                            "title": "Secretaria de Salud del Tolima",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Gilma Lucia Peña Daza, Secretario Despacho",
+                            "title": "Secretario Despacho",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Grupo de Salud Publica, Ivan José Barragán",
+                            "title": "Ivan José Barragán",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Ruben Dario Correa",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Autorizaciones Cafesalud",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "JAVIER ANDRES CORREA QUICENO",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "JAVIER ANDRES CORREA QUICENO",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "JAVIER ANDRES CORREA QUICENO",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Gustavo Enrique Morales Cobo, Despacho Superintendente Nacional de Salud",
+                            "title": "Despacho Superintendente Nacional de Salud",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "James Hares Chaid Franco, Despacho Secretario General",
+                            "title": "Despacho Secretario General",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Adolfo León Varela Sánchez, Despacho Superintendente Delegado para la Protección al Usuario",
+                            "title": "Despacho Superintendente Delegado para la Protección al Usuario",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "Que le realicen exámenes y tratamiento a mi hija",
+                    "signature_count": 32290,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/3/ix/dr/mTixDrVUVHLUfaH-556x313-cropped.jpg",
+                    "category": "Health",
+                    "goal": 35000,
+                    "created_at": "2014-08-30T13:47:15Z",
+                    "end_at": "2014-10-27T23:59:59Z",
+                    "creator_name": "Maria Esperanza Villalba",
+                    "creator_url": "https://api.change.org/u/146441000",
+                    "organization_name": null,
+                    "organization_url": null
+                },
+                {
+                    "petition_id": 1920145,
+                    "title": "una prótesis \"genium\" para Yady @JuanManSantos  @Coldeportes @agaviriau  @obhc @ottobockes",
+                    "status": "open",
+                    "url": "https://api.change.org/p/una-pr%C3%B3tesis-genium-para-yady-juanmansantos-coldeportes-agaviriau-obhc-ottobockes",
+                    "overview": "<p>Para m&iacute;, &nbsp;Yady Fern&aacute;ndez no solo es una gran futbolista, es una inspiraci&oacute;n para todas las ni&ntilde;as que jugamos al f&uacute;tbol en Colombia, y una guerrera de la vida de la cual todo nuestro pa&iacute;s deber&iacute;a estar orgulloso.</p>\r\n<p><strong>Yady perdi&oacute; una de sus piernas en un desafortunado accidente. Aunque ya no podr&aacute; jugar a su deporte m&aacute;s amado, el f&uacute;tbol, ella sue&ntilde;a con seguir dedic&aacute;ndose al deporte y darle nuevos triunfos y gloria al pa&iacute;s, ahora en el ciclismo.</strong> Para esto necesita una pr&oacute;tesis deportiva especial que le permita volver a caminar y recuperar su salud.</p>\r\n<p><strong>Creo que las promesas son para cumplirlas. En especialsi te las hace</strong> Juan Manuel Santos, <strong>el presidente de Colombia.</strong> Despu&eacute;s del accidente <strong><a href=\"https://www.youtube.com/watch?v=R19VxF0ef3M\" rel=\"nofollow\">&eacute;l le ofreci&oacute; &ldquo;todo el respaldo&rdquo; para su caso</a></strong>. El tiene el &nbsp;poder de conseguir la pr&oacute;tesis que tanto necesita. <strong>A m&iacute; me gustar&iacute;a poder confiar en el Presidente y en qu&eacute; va a cumplir su palabra para hacer todo lo necesario para ayudar a Yady.</strong></p>\r\n<p>Desde los 5 a&ntilde;os Yady aprendi&oacute; a patear el bal&oacute;n en compa&ntilde;&iacute;a de su pap&aacute; en Palmira.<strong> Su incre&iacute;ble talento la llev&oacute; a ser parte de la Selecci&oacute;n Colombia sub-17, convirti&eacute;ndose en la inspiraci&oacute;n de cientos de ni&ntilde;as en el pa&iacute;s</strong> que queremos jugar y meter goles como ella.</p>\r\n<p>Realmente a m&iacute; y a mis compa&ntilde;eras nos caus&oacute; mucha tristeza enterarnos de su accidente, pensamos que ya su vida como deportista estaba agotada. Pero, Yady nos mostr&oacute; su incansable esp&iacute;ritu. <strong>Ella nunca se ha rendido</strong> y nunca dej&oacute; de sonre&iacute;r, <strong>a pesar de los dolores de las cinco cirug&iacute;as, y de un tratamiento para eliminar una bacteria que alcanz&oacute; parte de su rodilla.</strong></p>\r\n<p><strong>Le amputaron su pierna izquierda cinco cent&iacute;metros por debajo de la pelvis.</strong> Yady hoy necesita una pr&oacute;tesis sofisicada y sumamente costosa para volver a caminar. Ella no puede costearla, por eso hoy le pido al Presidente de Colombia, la persona m&aacute;s influyente de nuestro pa&iacute;s, para quien esto realmente es algo sencillo, que cumpla su palabra y le consiga a Yady la pr&oacute;tesis que necesita.</p>\r\n<p><strong>Para que nuestro pa&iacute;s crezca, necesitamos que las personas como Yady puedan desarrollarse. Ayudarla, es tambi&eacute;n ayudar a todos los que vemos un ejemplo e inspiraci&oacute;n en ella, como deportista y persona.</strong></p>\r\n<p><strong>Tu puedes sumarte firmando y compartiendo esta petici&oacute;n.</strong></p>",
+                    "targets": [
+                        {
+                            "name": "Juan Manuel Santos, Presidente de la Répública",
+                            "title": "Presidente de la Répública",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Mario Buendía, Gerente general Colombia",
+                            "title": "Gerente general Colombia",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Ottobock Andina",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Karsten Ley, Director Corporativo de Comunicación",
+                            "title": "Director Corporativo de Comunicación",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Jairo Sanchez (Gerente de Ventas Nacionales), Gerente de Ventas Nacionales",
+                            "title": "Gerente de Ventas Nacionales",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Juan Manuel Santos, Presidente de la República",
+                            "title": "Presidente de la República",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Andrés Botero Phillipsbourne, Director Coldeportes",
+                            "title": "Director Coldeportes",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Clara Ines Bravo, Secretaria Ejecutiva",
+                            "title": "Secretaria Ejecutiva",
+                            "type": "custom"
+                        },
+                        {
+                            "name": "Alejandro Gaviria Uribe, Ministro de Salud  y protección social",
+                            "title": "Ministro de Salud  y protección social",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "una prótesis genium para Yady la gran futbolista colombiana",
+                    "signature_count": 12922,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/9/lb/tp/IVlbtPnNBqLNjgx-556x313-cropped.jpg",
+                    "category": null,
+                    "goal": 15000,
+                    "created_at": "2014-08-15T16:44:48Z",
+                    "end_at": "2015-08-15T23:59:59Z",
+                    "creator_name": "Johanna Marcela Perez Lucena",
+                    "creator_url": "https://api.change.org/u/60165059",
+                    "organization_name": null,
+                    "organization_url": null
+                },
+                {
+                    "petition_id": 1059459,
+                    "title": "Google: Create A Native Linux Google Drive Application",
+                    "status": "open",
+                    "url": "https://api.change.org/p/google-create-a-native-linux-google-drive-application",
+                    "overview": "<p>We need all platforms supported for use - no minority should be under represented</p>\r\n<p>bit.ly/gd4l-com <br />the community GoogleDrive4Linux<br />if you are annoyed enought to sign this petition, you may want to do more.</p>",
+                    "targets": [
+                        {
+                            "name": "Google",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "Create A Native Linux Google Drive Application\r\n",
+                    "signature_count": 27962,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/9/pp/tp/wdPPtPgLRpGARLo-556x313-cropped.jpg",
+                    "category": null,
+                    "goal": 35000,
+                    "created_at": "2013-03-22T22:27:13Z",
+                    "end_at": "2015-03-23T23:59:59Z",
+                    "creator_name": "GoogleDrive4Linux .",
+                    "creator_url": "https://api.change.org/u/45001239",
+                    "organization_name": null,
+                    "organization_url": null
+                },
+                {
+                    "petition_id": 355977,
+                    "title": "Google/GMail: Bring Back Mouse Gesture Lab Feature",
+                    "status": "closed",
+                    "url": "https://api.change.org/p/google-gmail-bring-back-mouse-gesture-lab-feature",
+                    "overview": "<p>A lot of people used it, people who were power users of GMail web app. <br />We don't understand how you calculated that it is not \"widely used\" to make a decision to pull the plug on it. <br />We at least deserved a notification or a feedback. <br />Bring it back!</p>",
+                    "targets": [
+                        {
+                            "name": "Google/GMail, Google/Gmail",
+                            "title": "Google/Gmail",
+                            "type": "custom"
+                        }
+                    ],
+                    "letter_body": "I just signed the following petition addressed to: Google/GMail.\n\n----------------\nBring Back Mouse Gesture Lab Feature\n\nA lot of people used it, people who were power users of GMail web app.\nWe don't understand how you calculated that it is not \"widely used\" to make a decision to pull the plug on it.\nWe at least deserved a notification or a feedback.\nBring it back!\n----------------\n\nSincerely,\n",
+                    "signature_count": 806,
+                    "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/5/uo/qh/alUOqHbylVFOmJC-556x313-cropped.jpg",
+                    "category": null,
+                    "goal": 1000,
+                    "created_at": "2012-05-02T17:59:37Z",
+                    "end_at": "2012-08-31T23:59:59Z",
+                    "creator_name": "Aman Alam",
+                    "creator_url": "https://api.change.org/u/aman",
+                    "organization_name": null,
+                    "organization_url": null
+                }
+            ]
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Sun, 01 Feb 2015 03:26:14 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d3a70382690290820f248beeefae546ff1422761173; expires=Mon, 01-Feb-16 03:26:13 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=8fec568d29964f2e85759da05565d6d7; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%221ba59c9c-1972-431e-8e15-0b4ac5da090a%22%7D; path=/; expires=Sun, 01-Feb-2015 04:11:14 GMT",
+                "_change_session=646790f09e0af4e000b7d645e41efe64; domain=.change.org; path=/; expires=Sun, 01-Feb-2015 04:11:14 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"79f64f60f47848b6c9adb68e1e4c0ac6\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "0da53992495b229cbe3c759f8e9cfc4b",
+            "x-runtime": "0.764724",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-03",
+            "cf-ray": "1b1b0bd69ae91092-MDE"
+        }
+    }
+]
