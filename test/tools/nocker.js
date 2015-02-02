@@ -36,7 +36,7 @@ nocker.loadCall = function (url, method, name, params) {
     .reply(reply[reply.length - 1].status, reply[reply.length - 1].response);
 };
 
-nocker.testRequirements = function (client, resource, method) {
+nocker.testRequirements = function (client, resource, method, parameter) {
   it('Method ' + method + ' should throw an error for parameter missing', function () {
     expect(function () {
       client[resource][method]();
@@ -45,7 +45,7 @@ nocker.testRequirements = function (client, resource, method) {
 
   it('Method ' + method + ' should throw an error for callback missing', function () {
     expect(function () {
-      client[resource][method]('fakeParameter');
+      client[resource][method](parameter);
     }).to.throw(Error);
   });
 };
@@ -53,7 +53,7 @@ nocker.testRequirements = function (client, resource, method) {
 nocker.createTest = function (client, resource, ctest) {
 
   client[resource][ctest.method](ctest.args, function (err, res, body) {
-    describe('change-api '+resource+' endpoint method ' + ctest.method, function () {
+    describe('change-api ' + resource + ' endpoint method ' + ctest.method, function () {
       it(ctest.behavior, function () {
         expect(res.statusCode).to.be.equal(ctest.status);
       });

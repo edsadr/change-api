@@ -1,0 +1,32 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/petitions/wrongid/reasons?id=wrongid&page=1&page_size=10&api_key=dummyKey",
+        "body": "",
+        "status": 404,
+        "response": {
+            "result": "failure",
+            "messages": [
+                "petition not found"
+            ]
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Mon, 02 Feb 2015 05:08:42 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d16c7a8c7e9ff51878c738f206a868d581422853722; expires=Tue, 02-Feb-16 05:08:42 GMT; path=/; domain=.change.org; HttpOnly"
+            ],
+            "status": "404 Not Found",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "cache-control": "no-cache",
+            "x-request-id": "77b65055030e06f455f6df9ee973928a",
+            "x-runtime": "0.038273",
+            "x-rack-cache": "miss",
+            "cf-ray": "1b23df56746f1092-MDE"
+        }
+    }
+]

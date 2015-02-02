@@ -27,6 +27,26 @@ client.petitions.getByUrl(petitionUrl,
     console.log(body);
   });
 
+client.petitions.getTargets(petitionID,
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.petitions.getSignatures({id: '2350636', page: 3, page_size:5},
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.petitions.getReasons(petitionID,
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.petitions.getUpdates(petitionID,
+  function (err, res, body) {
+    console.log(body);
+  });
+
 client.users.getIdByUrl(usersUrl,
   function (err, res, body) {
     console.log(body);

@@ -1,0 +1,57 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/petitions/1678685/reasons?id=1678685&page=1&page_size=10&api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "page": 1,
+            "prev_page_endpoint": null,
+            "next_page_endpoint": null,
+            "total_pages": 1,
+            "reasons": [
+                {
+                    "created_at": "2014-06-14T11:20:42Z",
+                    "content": "I have been saying this for months! JavaScript is a complex subject and needs its own 12 week course and Simon is the man for the job! About time!",
+                    "like_count": 0,
+                    "author_name": "Matthew Lucas",
+                    "author_url": "https://api.change.org/u/69863076"
+                },
+                {
+                    "created_at": "2014-06-19T01:02:03Z",
+                    "content": "Simon was a great teacher and very patient. JavaScript needs it own course and should not be condensed into one masterclass with HTML and CSS.  Simon was great at all areas.",
+                    "like_count": 0,
+                    "author_name": "Dean Forrester",
+                    "author_url": "https://api.change.org/u/112751660"
+                }
+            ]
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Mon, 02 Feb 2015 05:08:42 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d16c7a8c7e9ff51878c738f206a868d581422853722; expires=Tue, 02-Feb-16 05:08:42 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=fd13f780960d46a9babcf86419756a7e; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22313e5f19-5f79-459f-a06d-9959fa987363%22%7D; path=/; expires=Mon, 02-Feb-2015 05:53:42 GMT",
+                "_change_session=49737a84a723d9eafec840bb09842ea5; domain=.change.org; path=/; expires=Mon, 02-Feb-2015 05:53:42 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"c5ff124cd4849799d5f83f426431c697\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "9f2b3ff9a066384e9cc869d4b58c8838",
+            "x-runtime": "0.105417",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-05",
+            "cf-ray": "1b23df53ae9e1092-MDE"
+        }
+    }
+]

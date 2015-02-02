@@ -2,7 +2,7 @@
     {
         "scope": "https://api.change.org:443",
         "method": "GET",
-        "path": "/v1/users/17118355/signatures/petitions?api_key=dummyKey",
+        "path": "/v1/users/17118355/signatures/petitions?id=17118355&page=1&page_size=10&api_key=dummyKey",
         "body": "",
         "status": 200,
         "response": {
@@ -50,7 +50,7 @@
                         }
                     ],
                     "letter_body": "SOLICITO A BANCOLOMBIA QUE ME DEVUELVA EL DINERO QUE FUE SUSTRAIDO DE MI CUENTA DE MANERA FRAUDULENTA E ILICITA HACE TRES AÑOS.",
-                    "signature_count": 11987,
+                    "signature_count": 11994,
                     "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/3/xc/nt/GzXCNtFOSXbNuFv-556x313-cropped.jpg",
                     "category": "Economic Justice",
                     "goal": 15000,
@@ -134,7 +134,7 @@
                         }
                     ],
                     "letter_body": "Incluyan información de OGM (Organísmos Geneticamente Modificados) en las etiquetas de Información Nutricional y stickers de los alimentos.",
-                    "signature_count": 17841,
+                    "signature_count": 17843,
                     "image_url": "//d22r54gnmuhwmk.cloudfront.net/photos/1/ao/uv/hCaOuvWuvCtKLAe-556x313-cropped.jpg",
                     "category": "Health",
                     "goal": 25000,
@@ -391,15 +391,15 @@
         },
         "headers": {
             "server": "cloudflare-nginx",
-            "date": "Sun, 01 Feb 2015 15:29:56 GMT",
+            "date": "Mon, 02 Feb 2015 05:08:48 GMT",
             "content-type": "application/json; charset=utf-8",
             "transfer-encoding": "chunked",
             "connection": "keep-alive",
             "set-cookie": [
-                "__cfduid=d33f31cf76bd20cb785c1a0af2a8736a11422804595; expires=Mon, 01-Feb-16 15:29:55 GMT; path=/; domain=.change.org; HttpOnly",
-                "uuid=86bd22ef90294441ab456c0603827fdb; path=/",
-                "tracking_data=%7B%22user_uuid%22%3A%229f74ee6e-2f93-4f4d-91e5-082684d109c2%22%7D; path=/; expires=Sun, 01-Feb-2015 16:14:56 GMT",
-                "_change_session=9740026ec7f555671cc0bd9ae5cc3455; domain=.change.org; path=/; expires=Sun, 01-Feb-2015 16:14:56 GMT; HttpOnly"
+                "__cfduid=dad7a1207a72be0a0e178bed051ce4ace1422853728; expires=Tue, 02-Feb-16 05:08:48 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=7515611b07134b99868ee4bc29610160; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22ffdcd327-01b5-44d9-b20b-a8e34176eea7%22%7D; path=/; expires=Mon, 02-Feb-2015 05:53:48 GMT",
+                "_change_session=03a344fd85f016abbbc89e8948fb604f; domain=.change.org; path=/; expires=Mon, 02-Feb-2015 05:53:48 GMT; HttpOnly"
             ],
             "status": "200 OK",
             "access-control-allow-origin": "",
@@ -407,13 +407,13 @@
             "access-control-allow-credentials": "true",
             "access-control-max-age": "1728000",
             "x-ua-compatible": "IE=Edge,chrome=1",
-            "etag": "\"d388ea17dd9c9c3bc3b31001f87de6dd\"",
+            "etag": "\"6785017263739bbca351f8847fd128d8\"",
             "cache-control": "max-age=0, private, must-revalidate",
-            "x-request-id": "63486cec5a5aecdc7cab79bd9bf4742b",
-            "x-runtime": "1.039598",
+            "x-request-id": "dae5ecdf2607b76d7749a908d8e40660",
+            "x-runtime": "0.321915",
             "x-rack-cache": "miss",
-            "x-change-server": "production-change_main-app-12",
-            "cf-ray": "1b1f2ff20c171092-MDE"
+            "x-change-server": "production-change_main-app-metal-00",
+            "cf-ray": "1b23df7b0f1c1092-MDE"
         }
     }
 ]

@@ -1,0 +1,50 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/petitions/1678685/updates?id=1678685&page=1&page_size=10&api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": {
+            "page": 1,
+            "prev_page_endpoint": null,
+            "next_page_endpoint": null,
+            "total_pages": 1,
+            "updates": [
+                {
+                    "created_at": "2014-06-19T01:01:59Z",
+                    "title": "5",
+                    "content": null,
+                    "author_name": "Juliette O'Brien",
+                    "author_url": "https://api.change.org/u/83653090"
+                }
+            ]
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Mon, 02 Feb 2015 05:08:43 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d39419073068cd1ebe534476059f0c9771422853723; expires=Tue, 02-Feb-16 05:08:43 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=f8d8405a90844ba0872b10f90e51b4f7; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22b0c7797b-1744-4b98-bd72-68216cd7ad53%22%7D; path=/; expires=Mon, 02-Feb-2015 05:53:43 GMT",
+                "_change_session=9d6c5a4609f9d2c5583a61c796bbded4; domain=.change.org; path=/; expires=Mon, 02-Feb-2015 05:53:43 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"848f559f3f87394eb30e758ea3891f4b\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "2e8b0351e9295277e0562bd479406685",
+            "x-runtime": "0.090179",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-14",
+            "cf-ray": "1b23df58e3ec1086-MDE"
+        }
+    }
+]

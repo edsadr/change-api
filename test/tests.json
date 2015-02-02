@@ -56,6 +56,86 @@
 					"verb": "GET",
 					"params": {},
 					"status": 200
+				},
+				{
+					"name": "petition-getTargets",
+					"method": "getTargets",
+					"args": "1678685",
+					"behavior": "It should get a petition targets by ID",
+					"url": "petitions/1678685/targets",
+					"verb": "GET",
+					"params": {},
+					"status": 200
+				},
+				{
+					"name": "petition-getTargetsFailed",
+					"method": "getTargets",
+					"args": "wrongid",
+					"behavior": "It should fail getting a petition targets by a wrong ID",
+					"url": "petitions/wrongid/targets",
+					"verb": "GET",
+					"params": {},
+					"status": 404
+				},
+				{
+					"name": "petition-getSignatures",
+					"method": "getSignatures",
+					"args": {"id": "1678685"},
+					"behavior": "It should get a petition signatures by ID",
+					"url": "petitions/1678685/signatures",
+					"verb": "GET",
+					"params": {"id": "1678685", "page": 1, "page_size": 10},
+					"status": 200
+				},
+				{
+					"name": "petition-getSignaturesFailed",
+					"method": "getSignatures",
+					"args": {"id": "wrongid"},
+					"behavior": "It should fail getting a petition signatures by a wrong ID",
+					"url": "petitions/wrongid/signatures",
+					"verb": "GET",
+					"params": {"id": "wrongid", "page": 1, "page_size": 10},
+					"status": 404
+				},
+				{
+					"name": "petition-getReasons",
+					"method": "getReasons",
+					"args": {"id": "1678685"},
+					"behavior": "It should get a petition reasons by ID",
+					"url": "petitions/1678685/reasons",
+					"verb": "GET",
+					"params": {"id": "1678685", "page": 1, "page_size": 10},
+					"status": 200
+				},
+				{
+					"name": "petition-getReasonsFailed",
+					"method": "getReasons",
+					"args": {"id": "wrongid"},
+					"behavior": "It should fail getting a petition reasons by a wrong ID",
+					"url": "petitions/wrongid/reasons",
+					"verb": "GET",
+					"params": {"id": "wrongid", "page": 1, "page_size": 10},
+					"status": 404
+				},
+				{
+					"name": "petition-getUpdates",
+					"method": "getUpdates",
+					"args": {"id": "1678685"},
+					"behavior": "It should get a petition updates by ID",
+					"url": "petitions/1678685/updates",
+					"verb": "GET",
+					"params": {"id": "1678685", "page": 1, "page_size": 10},
+					"status": 200
+				},
+				{
+					"name": "petition-getUpdatesFailed",
+					"method": "getUpdates",
+					"args": {"id": "wrongid"},
+					"behavior": "It should fail getting a petition updates by a wrong ID",
+					"url": "petitions/wrongid/updates",
+					"verb": "GET",
+					"params": {"id": "wrongid", "page": 1, "page_size": 10},
+					"status": 404
 				}
 			]
 		},
@@ -109,41 +189,41 @@
 				{
 					"name": "user-getPetitions",
 					"method": "getPetitions",
-					"args": "17118355",
+					"args": {"id": "17118355"},
 					"behavior": "It should get all user's petitions",
 					"url": "users/17118355/petitions",
 					"verb": "GET",
-					"params": {},
+					"params": {"id": "17118355", "page": 1, "page_size": 10},
 					"status": 200
 				},
 				{
 					"name": "user-getPetitionsFailed",
 					"method": "getPetitions",
-					"args": "wrongid",
+					"args": {"id": "wrongid"},
 					"behavior": "It should fail getting all user's petitions with a wrong ID",
 					"url": "users/wrongid/petitions",
 					"verb": "GET",
-					"params": {},
+					"params": {"id": "wrongid", "page": 1, "page_size": 10},
 					"status": 404
 				},
 				{
 					"name": "user-getSignatures",
 					"method": "getSignatures",
-					"args": "17118355",
+					"args": {"id": "17118355"},
 					"behavior": "It should get all user's signatures",
 					"url": "users/17118355/signatures/petitions",
 					"verb": "GET",
-					"params": {},
+					"params": {"id": "17118355", "page": 1, "page_size": 10},
 					"status": 200
 				},
 				{
 					"name": "user-getSignaturesFailed",
 					"method": "getSignatures",
-					"args": "wrongid",
+					"args": {"id": "wrongid"},
 					"behavior": "It should fail getting all user's signatures with a wrong ID",
 					"url": "users/wrongid/signatures/petitions",
 					"verb": "GET",
-					"params": {},
+					"params": {"id": "wrongid", "page": 1, "page_size": 10},
 					"status": 404
 				}
 			]
@@ -198,21 +278,21 @@
 				{
 					"name": "organization-getPetitions",
 					"method": "getPetitions",
-					"args": "5848",
+					"args": {"id": "5848"},
 					"behavior": "It should get all organization's petitions",
 					"url": "organizations/5848/petitions",
 					"verb": "GET",
-					"params": {},
+					"params": {"id": "5848", "page": 1, "page_size": 10},
 					"status": 200
 				},
 				{
 					"name": "organization-getPetitionsFailed",
 					"method": "getPetitions",
-					"args": "wrongid",
+					"args": {"id": "wrongid"},
 					"behavior": "It should fail getting all organization's petitions with a wrong ID",
 					"url": "organizations/wrongid/petitions",
 					"verb": "GET",
-					"params": {},
+					"params": {"id": "wrongid", "page": 1, "page_size": 10},
 					"status": 404
 				}
 			]

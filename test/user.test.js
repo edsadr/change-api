@@ -10,11 +10,27 @@ describe('change-api user endpoint', function () {
     return index.resource === 'users';
   });
 
-  var methods = ['getIdByUrl', 'getByID', 'getPetitions', 'getSignatures'];
+  var methods = [{
+    name: 'getIdByUrl',
+    parameter: 'fakeUrl'
+  }, {
+    name: 'getByID',
+    parameter: 'fakeId'
+  }, {
+    name: 'getSignatures',
+    parameter: {
+      id: 'fakeId'
+    }
+  }, {
+    name: 'getPetitions',
+    parameter: {
+      id: 'fakeId'
+    }
+  }];
 
   //Test parameters and callbacks missing
   for (var i = 0; i < methods.length; i++) {
-    nocker.testRequirements(client, resourceTests[0].resource, methods[i]);
+    nocker.testRequirements(client, resourceTests[0].resource, methods[i].name, methods[i].parameter);
   }
 
   //Mocking each API resource calls and creating the test

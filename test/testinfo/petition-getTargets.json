@@ -1,0 +1,41 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "GET",
+        "path": "/v1/petitions/1678685/targets?api_key=dummyKey",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "name": "Simon Rodwell",
+                "type": "custom"
+            }
+        ],
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Mon, 02 Feb 2015 05:08:40 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=db66ed281d024840f6409874f144fee6c1422853719; expires=Tue, 02-Feb-16 05:08:39 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=8e5e7b5ecc5140b288903f481ef18302; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%225687ea8d-52e3-4cea-933b-bae876932e77%22%7D; path=/; expires=Mon, 02-Feb-2015 05:53:40 GMT",
+                "_change_session=6c97f4cc6f1e1fb93cddead1d7f15463; domain=.change.org; path=/; expires=Mon, 02-Feb-2015 05:53:40 GMT; HttpOnly"
+            ],
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "etag": "\"0ad3ffae59af29171258f784b154f7a5\"",
+            "cache-control": "max-age=0, private, must-revalidate",
+            "x-request-id": "5b5b00db42694a7e56fb9882fe52d942",
+            "x-runtime": "0.337238",
+            "x-rack-cache": "miss",
+            "x-change-server": "production-change_main-app-06",
+            "cf-ray": "1b23df44ab401092-MDE"
+        }
+    }
+]

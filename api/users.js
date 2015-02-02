@@ -1,5 +1,7 @@
 'use strict';
 
+var defaults = require('defaults');
+
 module.exports = function users(request) {
 
   /**
@@ -45,39 +47,49 @@ module.exports = function users(request) {
   /**
    * Gets petitions created by a user identified by id
    *
-   * @param {string} id - Id of the user
+   * @param {object} options - Object containing id property with Id of the user and pagination options
    * @param {function} callback receiving error, response and result
    */
-  function getPetitions(id, callback) {
-    if (typeof id !== 'string') {
-      throw new Error('a user id is required');
+  function getPetitions(options, callback) {
+    if (typeof options === 'undefined' || typeof options.id !== 'string') {
+      throw new Error('an object containing a property called "id" with a petition id is required');
     }
 
     if (typeof callback !== 'function') {
       throw new Error('a callback is required');
     }
 
-    var route = 'users/' + id + '/petitions';
-    request('GET', route, {}, callback);
+    var params = defaults(options, {
+      page: 1,
+      page_size: 10
+    });
+
+    var route = 'users/' + options.id + '/petitions';
+    request('GET', route, params, callback);
   }
 
   /**
    * Gets all signed petitions by a user identified by id
    *
-   * @param {string} id - Id of the user
+   * @param {object} options - Object containing id property with Id of the petition and pagination options
    * @param {function} callback receiving error, response and result
    */
-  function getSignatures(id, callback) {
-    if (typeof id !== 'string') {
-      throw new Error('a user id is required');
+  function getSignatures(options, callback) {
+    if (typeof options === 'undefined' || typeof options.id !== 'string') {
+      throw new Error('an object containing a property called "id" with a petition id is required');
     }
 
     if (typeof callback !== 'function') {
       throw new Error('a callback is required');
     }
 
-    var route = 'users/' + id + '/signatures/petitions';
-    request('GET', route, {}, callback);
+    var params = defaults(options, {
+      page: 1,
+      page_size: 10
+    });
+
+    var route = 'users/' + options.id + '/signatures/petitions';
+    request('GET', route, params, callback);
   }
 
   return {

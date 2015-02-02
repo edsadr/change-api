@@ -2,13 +2,13 @@
     {
         "scope": "https://api.change.org:443",
         "method": "GET",
-        "path": "/v1/organizations/5848/petitions?api_key=dummyKey",
+        "path": "/v1/organizations/5848/petitions?id=5848&page=1&page_size=10&api_key=dummyKey",
         "body": "",
         "status": 200,
         "response": {
             "page": 1,
             "prev_page_endpoint": null,
-            "next_page_endpoint": "https://api.change.org/v1/organizations/5848/petitions?page=2",
+            "next_page_endpoint": "https://api.change.org/v1/organizations/5848/petitions?page=2&page_size=10",
             "total_pages": 4,
             "petitions": [
                 {
@@ -267,15 +267,15 @@
         },
         "headers": {
             "server": "cloudflare-nginx",
-            "date": "Sun, 01 Feb 2015 15:30:00 GMT",
+            "date": "Mon, 02 Feb 2015 05:08:52 GMT",
             "content-type": "application/json; charset=utf-8",
             "transfer-encoding": "chunked",
             "connection": "keep-alive",
             "set-cookie": [
-                "__cfduid=d761b8d45315aee722a94ada7a12062531422804600; expires=Mon, 01-Feb-16 15:30:00 GMT; path=/; domain=.change.org; HttpOnly",
-                "uuid=4da8e3d1b9c4490c8063018493d8a850; path=/",
-                "tracking_data=%7B%22user_uuid%22%3A%22956de65e-9a51-47ba-a3c0-c8616685a361%22%7D; path=/; expires=Sun, 01-Feb-2015 16:15:00 GMT",
-                "_change_session=a3a138e93716646f44fa680bd04f3b0c; domain=.change.org; path=/; expires=Sun, 01-Feb-2015 16:15:00 GMT; HttpOnly"
+                "__cfduid=deb352cf31d9a64389861f0df650366671422853731; expires=Tue, 02-Feb-16 05:08:51 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=6994b7407928499da0c56532eb60dfe4; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%229b6f1379-a1b7-4a4b-8680-6fc0ab5d1ff4%22%7D; path=/; expires=Mon, 02-Feb-2015 05:53:52 GMT",
+                "_change_session=6bd5b68bf9658ce0fcc523630947d069; domain=.change.org; path=/; expires=Mon, 02-Feb-2015 05:53:52 GMT; HttpOnly"
             ],
             "status": "200 OK",
             "access-control-allow-origin": "",
@@ -283,13 +283,13 @@
             "access-control-allow-credentials": "true",
             "access-control-max-age": "1728000",
             "x-ua-compatible": "IE=Edge,chrome=1",
-            "etag": "\"b1320b2cef37efa214b1e4ad175d092e\"",
+            "etag": "\"1b2e33f72d76027f3ae58b29ce80b9a6\"",
             "cache-control": "max-age=0, private, must-revalidate",
-            "x-request-id": "cd6127f18c4b6deaf7637ca77ec5e6da",
-            "x-runtime": "0.676803",
+            "x-request-id": "13af769e45ecb02789451f7499a98c47",
+            "x-runtime": "0.620718",
             "x-rack-cache": "miss",
-            "x-change-server": "production-change_main-app-00",
-            "cf-ray": "1b1f300f6a791092-MDE"
+            "x-change-server": "production-change_main-app-03",
+            "cf-ray": "1b23df9094781086-MDE"
         }
     }
 ]

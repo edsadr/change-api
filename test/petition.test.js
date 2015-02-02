@@ -10,11 +10,38 @@ describe('change-api petition endpoint', function () {
     return index.resource === 'petitions';
   });
 
-  var methods = ['getIdByUrl', 'getByID', 'getByUrl'];
+  var methods = [{
+    name: 'getIdByUrl',
+    parameter: 'fakeUrl'
+  }, {
+    name: 'getByID',
+    parameter: 'fakeId'
+  }, {
+    name: 'getByUrl',
+    parameter: 'fakeUrl'
+  }, {
+    name: 'getTargets',
+    parameter: 'fakeId'
+  }, {
+    name: 'getSignatures',
+    parameter: {
+      id: 'fakeId'
+    }
+  }, {
+    name: 'getReasons',
+    parameter: {
+      id: 'fakeId'
+    }
+  }, {
+    name: 'getUpdates',
+    parameter: {
+      id: 'fakeId'
+    }
+  }];
 
   //Test parameters and callbacks missing
   for (var i = 0; i < methods.length; i++) {
-    nocker.testRequirements(client, resourceTests[0].resource, methods[i]);
+    nocker.testRequirements(client, resourceTests[0].resource, methods[i].name, methods[i].parameter);
   }
 
   //Mocking each API resource calls and creating the test
