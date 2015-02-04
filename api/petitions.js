@@ -162,14 +162,60 @@ module.exports = function petitions(request) {
     request('GET', route, params, callback);
   }
 
+  /**
+   * Request an authorization key to sign a petition
+   *
+   * @param {object} options - Object containing
+   *                         "petition_id,source_description,source,requester_email,callback_endpoint"
+   *                         properties
+   * @param {function} callback receiving error, response and result
+   */
+  function getAuthKey(options, callback) {
+
+    var validState = validateObject(
+      options, ['petition_id', 'source_description', 'source', 'requester_email', 'callback_endpoint']
+    );
+
+    if (!validState) {
+      throw new Error(
+        'an object containing these properties: ' +
+        '"petition_id,source_description,source,requester_email,callback_endpoint" ' +
+        'is required, check the doc here: ' +
+        'https://github.com/change/api_docs/blob/master/v1/documentation/resources/petitions/auth_keys.md'
+      );
+    }
+
+    if (typeof callback !== 'function') {
+      throw new Error('a callback is required');
+    }
+
+    var route = 'petitions/' + options.petition_id + '/auth_keys';    
+    request('POST', route, options, callback);
+  }
+
   /*
-    @TODO implement:    
-    - Pagination: {page,page_size} 
-      (
-        petitions: getSignatures, getReasons, getUpdates       
-        users: getPetitions, getSignatures
-        organizations.getPetitions
-      )
+   * Validate an object for required properties
+   *
+   * @param {object} obj - Object to validate
+   * @param {Array} properties - Array with all properties required to exist in the object
+   */
+  function validateObject(obj, properties) {
+    if (typeof obj === 'undefined') {
+      return false;
+    }
+
+    for (var i = 0; i < properties.length; i++) {
+      var property = properties[i];
+      if (typeof obj[property] === 'undefined') {
+        console.log(property);
+        return false;
+      }
+    }
+    return true;
+  }
+
+  /*
+    @TODO implement:   
     - Add create Signatures        
     - Authorization keys
     - Refactor petitions.js
@@ -182,6 +228,7 @@ module.exports = function petitions(request) {
     getTargets: getTargets,
     getSignatures: getSignatures,
     getReasons: getReasons,
-    getUpdates: getUpdates
+    getUpdates: getUpdates,
+    getAuthKey: getAuthKey
   };
 };
