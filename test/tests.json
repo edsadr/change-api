@@ -136,6 +136,64 @@
 					"verb": "GET",
 					"params": {"id": "wrongid", "page": 1, "page_size": 10},
 					"status": 404
+				},
+				{
+					"name": "petition-getAuthKey",
+					"method": "getAuthKey",
+					"args": {
+					  "petition_id": 2780461,
+					  "source_description": "MedellinJS site",
+					  "source": "http://medellinjs.org/comparte",
+					  "requester_email": "edsadr@gmail.com",
+					  "callback_endpoint": "http://medellinjs.org/update",
+					  "endpoint": "/v1/petitions/2780461/auth_keys",
+					  "timestamp": 4783248237832
+					},
+					"behavior": "It should get an auth key for a user",
+					"url": "petitions/1678685/auth_keys",
+					"verb": "POST",
+					"params": {
+					  "petition_id": 2780461,
+					  "source_description": "MedellinJS site",
+					  "source": "http://medellinjs.org/comparte",
+					  "requester_email": "edsadr@gmail.com",
+					  "callback_endpoint": "http://medellinjs.org/update",
+					  "endpoint": "/v1/petitions/2780461/auth_keys",
+					  "timestamp": 4783248237832
+					},
+					"status": 500
+				},
+				{
+					"name": "petition-addSignature",
+					"method": "addSignature",
+					"args": {
+					  "petition_id": 2780461,
+					  "auth_key": "",
+					  "source": "http://medellinjs.org/comparte",  
+					  "email": "edsadr@gmail.com",
+					  "first_name": "Adrian",
+					  "last_name": "Estrada",
+					  "city": "Medellin",
+					  "postal_code": "000000",
+					  "country_code": "CO",					   
+					  "timestamp": 4783248237832
+					},
+					"behavior": "It should get an auth key for a user",
+					"url": "petitions/1678685/signatures",
+					"verb": "POST",
+					"params": {
+					  "petition_id": 2780461,
+					  "auth_key": "",
+					  "source": "http://medellinjs.org/comparte",  
+					  "email": "edsadr@gmail.com",
+					  "first_name": "Adrian",
+					  "last_name": "Estrada",
+					  "city": "Medellin",
+					  "postal_code": "000000",
+					  "country_code": "CO",					   
+					  "timestamp": 4783248237832
+					},
+					"status": 400
 				}
 			]
 		},

@@ -1,0 +1,47 @@
+[
+    {
+        "scope": "https://api.change.org:443",
+        "method": "POST",
+        "path": "/v1/petitions/2780461/auth_keys",
+        "body": {
+            "petition_id": 2780461,
+            "source_description": "MedellinJS site",
+            "source": "http://medellinjs.org/comparte",
+            "requester_email": "edsadr@gmail.com",
+            "callback_endpoint": "http://medellinjs.org/update",
+            "endpoint": "/v1/petitions/2780461/auth_keys",
+            "timestamp": 4783248237832,
+            "api_key": "dummyKey"
+        },
+        "status": 500,
+        "response": {
+            "result": "failure",
+            "messages": [
+                "There was a server error. Please try again later."
+            ]
+        },
+        "headers": {
+            "server": "cloudflare-nginx",
+            "date": "Fri, 06 Feb 2015 03:30:43 GMT",
+            "content-type": "application/json; charset=utf-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "set-cookie": [
+                "__cfduid=d57ff00d6ba90d064f6eeb8baf45477de1423193442; expires=Sat, 06-Feb-16 03:30:42 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=bc4c70fb28744e99afe458269e2672ea; path=/",
+                "_change_session=5dfd7ef39fa773acd59486b1c5e53ff1; domain=.change.org; path=/; expires=Fri, 06-Feb-2015 04:15:43 GMT; HttpOnly"
+            ],
+            "status": "500 Internal Server Error",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
+            "x-ua-compatible": "IE=Edge,chrome=1",
+            "cache-control": "no-cache",
+            "x-request-id": "5868dc13677fe876eb01b2ad21347202",
+            "x-runtime": "0.218531",
+            "x-rack-cache": "invalidate, pass",
+            "cf-ray": "1b444547b3711086-MDE"
+        }
+    }
+]

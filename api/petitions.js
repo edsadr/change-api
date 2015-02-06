@@ -189,7 +189,42 @@ module.exports = function petitions(request) {
       throw new Error('a callback is required');
     }
 
-    var route = 'petitions/' + options.petition_id + '/auth_keys';    
+    var route = 'petitions/' + options.petition_id + '/auth_keys';
+    request('POST', route, options, callback);
+  }
+
+  /**
+   * Add a signature to any petition identified by id
+   *
+   * @param {object} options - Object containing required properties:
+   *                         "petition_id, auth_key, source, email, first_name, last_name, 
+   *                         city, postal_code, country_code"
+   *                         And optionally:
+   *                         "address, state_province, phone, reason , hidden"   *
+   * @param {function} callback receiving error, response and result
+   */
+  function addSignature(options, callback) {
+
+    var validState = validateObject(
+      options, [
+        'petition_id', 'auth_key', 'source', 'email', 'first_name', 'last_name', 'city', 'postal_code', 'country_code'
+      ]
+    );
+
+    if (!validState) {
+      throw new Error(
+        'an object containing these properties: ' +
+        '"petition_id, source, email, first_name, last_name, city, postal_code, country_code" ' +
+        'is required, check the doc here: ' +
+        'https://github.com/change/api_docs/blob/master/v1/documentation/resources/petitions/signatures.md'
+      );
+    }
+
+    if (typeof callback !== 'function') {
+      throw new Error('a callback is required');
+    }
+
+    var route = 'petitions/' + options.petition_id + '/signatures';
     request('POST', route, options, callback);
   }
 
@@ -214,13 +249,6 @@ module.exports = function petitions(request) {
     return true;
   }
 
-  /*
-    @TODO implement:   
-    - Add create Signatures        
-    - Authorization keys
-    - Refactor petitions.js
-   */
-
   return {
     getIdByUrl: getIdByUrl,
     getByID: getByID,
@@ -229,6 +257,7 @@ module.exports = function petitions(request) {
     getSignatures: getSignatures,
     getReasons: getReasons,
     getUpdates: getUpdates,
-    getAuthKey: getAuthKey
+    getAuthKey: getAuthKey,
+    addSignature: addSignature
   };
 };

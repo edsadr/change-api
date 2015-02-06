@@ -1,6 +1,7 @@
 [
     {
         "scope": "https://api.change.org:443",
+        "method": "GET",
         "path": "/v1/petitions/1678685/signatures?id=1678685&page=1&page_size=10&api_key=dummyKey",
         "body": "",
         "status": 200,
@@ -55,15 +56,15 @@
         },
         "headers": {
             "server": "cloudflare-nginx",
-            "date": "Mon, 02 Feb 2015 05:08:41 GMT",
+            "date": "Fri, 06 Feb 2015 03:30:34 GMT",
             "content-type": "application/json; charset=utf-8",
             "transfer-encoding": "chunked",
             "connection": "keep-alive",
             "set-cookie": [
-                "__cfduid=debd7378bb6ecae8cd47d641070f1c8181422853721; expires=Tue, 02-Feb-16 05:08:41 GMT; path=/; domain=.change.org; HttpOnly",
-                "uuid=655eec3ca58f488caa1330b64a9942d8; path=/",
-                "tracking_data=%7B%22user_uuid%22%3A%226b04ab44-f6d5-4f6f-884a-8e26d38f19d6%22%7D; path=/; expires=Mon, 02-Feb-2015 05:53:41 GMT",
-                "_change_session=04044a7632eb191e51b6174bdd503474; domain=.change.org; path=/; expires=Mon, 02-Feb-2015 05:53:41 GMT; HttpOnly"
+                "__cfduid=dadb8f4aff043b85ef4df0aef9270575b1423193433; expires=Sat, 06-Feb-16 03:30:33 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=f70d89e3b3bb4b9da9364bbbe7eca0e4; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22de85b909-6f7b-4af5-b12f-ee5ff37509d8%22%7D; path=/; expires=Fri, 06-Feb-2015 04:15:34 GMT",
+                "_change_session=e0c605b76f00ce994f8a1b876786daa1; domain=.change.org; path=/; expires=Fri, 06-Feb-2015 04:15:34 GMT; HttpOnly"
             ],
             "status": "200 OK",
             "access-control-allow-origin": "",
@@ -73,11 +74,11 @@
             "x-ua-compatible": "IE=Edge,chrome=1",
             "etag": "\"04c8a334426f3cd9f2556fa905a81b7c\"",
             "cache-control": "max-age=0, private, must-revalidate",
-            "x-request-id": "eff7d64f2b0f77ff577fbbb2e3d1e534",
-            "x-runtime": "0.133542",
+            "x-request-id": "f8b1f9e1e5ab4073d930c3527eeb89af",
+            "x-runtime": "0.153989",
             "x-rack-cache": "miss",
-            "x-change-server": "production-change_main-app-15",
-            "cf-ray": "1b23df4d8b511092-MDE"
+            "x-change-server": "production-change_main-app-metal-00",
+            "cf-ray": "1b444512203d1092-MDE"
         }
     }
 ]
