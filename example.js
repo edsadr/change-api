@@ -1,6 +1,6 @@
 var changeApi = require('./index.js');
 
-var petitionUrl = 'https://www.change.org/p/simon-rodwell-teach-the-javascript-masterclass',
+var petitionUrl = 'https://www.change.org/p/medellinjs-host-more-workshops-for-all-talks',
   usersUrl = 'https://www.change.org/users/edsadr',
   petitionID = '1678685',
   userID = '17118355',
@@ -32,7 +32,11 @@ client.petitions.getTargets(petitionID,
     console.log(body);
   });
 
-client.petitions.getSignatures({id: '2350636', page: 3, page_size:5},
+client.petitions.getSignatures({
+    id: '2350636',
+    page: 3,
+    page_size: 5
+  },
   function (err, res, body) {
     console.log(body);
   });
@@ -43,6 +47,36 @@ client.petitions.getReasons(petitionID,
   });
 
 client.petitions.getUpdates(petitionID,
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.petitions.getAuthKey({
+    'petition_id': 2780461,
+    'source_description': 'MedellinJS site',
+    'source': 'http://medellinjs.org/comparte',
+    'requester_email': 'edsadr@gmail.com',
+    'callback_endpoint': 'http://medellinjs.org/get_auth_keys',
+    'endpoint': '/v1/petitions/2780461/auth_keys',
+    'timestamp': new Date().getTime()
+  },
+  function (err, res, body) {
+    console.log(body);
+  });
+
+client.petitions.addSignature({
+    'petition_id': 2780461,
+    'auth_key': '',
+    'source': 'http://medellinjs.org/comparte',
+    'email': 'edsadr@gmail.com',
+    'first_name': 'Adrian',
+    'last_name': 'Estrada',
+    'city': 'Medellin',
+    'postal_code': '000000',
+    'country_code': 'CO',
+    'endpoint': '/v1/petitions/2780461/auth_keys',
+    'timestamp': new Date().getTime()
+  },
   function (err, res, body) {
     console.log(body);
   });

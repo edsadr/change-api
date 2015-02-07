@@ -194,7 +194,7 @@ module.exports = function petitions(request) {
   }
 
   /**
-   * Add a signature to any petition identified by id
+   * Adds a signature to any petition identified by id
    *
    * @param {object} options - Object containing required properties:
    *                         "petition_id, auth_key, source, email, first_name, last_name, 
@@ -229,7 +229,7 @@ module.exports = function petitions(request) {
   }
 
   /*
-   * Validate an object for required properties
+   * Validates an object for required properties
    *
    * @param {object} obj - Object to validate
    * @param {Array} properties - Array with all properties required to exist in the object
@@ -241,8 +241,7 @@ module.exports = function petitions(request) {
 
     for (var i = 0; i < properties.length; i++) {
       var property = properties[i];
-      if (typeof obj[property] === 'undefined') {
-        console.log(property);
+      if (typeof obj[property] === 'undefined') {        
         return false;
       }
     }

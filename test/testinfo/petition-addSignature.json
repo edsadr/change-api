@@ -16,12 +16,9 @@
             "timestamp": 4783248237832,
             "api_key": "dummyKey"
         },
-        "status": 400,
+        "status": 202,
         "response": {
-            "result": "failure",
-            "messages": [
-                "authorization key cannot be found or is not granted"
-            ]
+            "result": "success"          
         },
         "headers": {
             "server": "cloudflare-nginx",

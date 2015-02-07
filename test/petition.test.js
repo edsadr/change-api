@@ -37,6 +37,16 @@ describe('change-api petition endpoint', function () {
     parameter: {
       id: 'fakeId'
     }
+  }, {
+    name: 'getAuthKey',
+    parameter: {
+      id: 'fakeId'
+    }
+  }, {
+    name: 'addSignature',
+    parameter: {
+      id: 'fakeId'
+    }
   }];
 
   //Test parameters and callbacks missing

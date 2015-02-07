@@ -150,7 +150,7 @@
 					  "timestamp": 4783248237832
 					},
 					"behavior": "It should get an auth key for a user",
-					"url": "petitions/1678685/auth_keys",
+					"url": "petitions/2780461/auth_keys",
 					"verb": "POST",
 					"params": {
 					  "petition_id": 2780461,
@@ -161,7 +161,7 @@
 					  "endpoint": "/v1/petitions/2780461/auth_keys",
 					  "timestamp": 4783248237832
 					},
-					"status": 500
+					"status": 202
 				},
 				{
 					"name": "petition-addSignature",
@@ -179,7 +179,7 @@
 					  "timestamp": 4783248237832
 					},
 					"behavior": "It should get an auth key for a user",
-					"url": "petitions/1678685/signatures",
+					"url": "petitions/2780461/signatures",
 					"verb": "POST",
 					"params": {
 					  "petition_id": 2780461,
@@ -193,7 +193,7 @@
 					  "country_code": "CO",					   
 					  "timestamp": 4783248237832
 					},
-					"status": 400
+					"status": 202
 				}
 			]
 		},

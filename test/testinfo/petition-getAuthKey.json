@@ -13,12 +13,14 @@
             "timestamp": 4783248237832,
             "api_key": "dummyKey"
         },
-        "status": 500,
+        "status": 202,
         "response": {
-            "result": "failure",
-            "messages": [
-                "There was a server error. Please try again later."
-            ]
+            "status": "granted",
+            "petition_id": "2780461",
+            "source_description": "MedellinJS site",
+            "source": "http://medellinjs.org/comparte",
+            "requester_email": "edsadr@gmail.com",
+            "auth_key": "29b109add0012f47754a28309b670a2c"
         },
         "headers": {
             "server": "cloudflare-nginx",
