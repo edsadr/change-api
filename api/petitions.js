@@ -207,14 +207,15 @@ module.exports = function petitions(request) {
 
     var validState = validateObject(
       options, [
-        'petition_id', 'auth_key', 'source', 'email', 'first_name', 'last_name', 'city', 'postal_code', 'country_code'
+        'petition_id', 'api_secret', 'auth_key', 'source', 'email', 
+        'first_name', 'last_name', 'city', 'postal_code', 'country_code'
       ]
     );
 
     if (!validState) {
       throw new Error(
         'an object containing these properties: ' +
-        '"petition_id, source, email, first_name, last_name, city, postal_code, country_code" ' +
+        '"api_secret, auth_key, petition_id, source, email, first_name, last_name, city, postal_code, country_code" ' +
         'is required, check the doc here: ' +
         'https://github.com/change/api_docs/blob/master/v1/documentation/resources/petitions/signatures.md'
       );

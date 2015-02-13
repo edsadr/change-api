@@ -47,7 +47,14 @@ module.exports = function client(options) {
       var apiSecret = params.api_secret;
       delete params.api_secret;
 
-      var queryString = qs.stringify(params) + apiSecret;
+      var authKey = '';
+      if(typeof params.auth_key !== 'undefined'){
+        authKey = params.auth_key;
+        delete params.auth_key;
+      }
+
+      var queryString = qs.stringify(params) + apiSecret +authKey;
+
       var rsig = crypto.createHash('sha256').update(queryString).digest('hex');
 
       params.rsig = rsig;
