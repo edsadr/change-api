@@ -173,13 +173,13 @@ module.exports = function petitions(request) {
   function getAuthKey(options, callback) {
 
     var validState = validateObject(
-      options, ['petition_id', 'source_description', 'source', 'requester_email', 'callback_endpoint']
+      options, ['api_secret','petition_id', 'source_description', 'source', 'requester_email']
     );
 
     if (!validState) {
       throw new Error(
         'an object containing these properties: ' +
-        '"petition_id,source_description,source,requester_email,callback_endpoint" ' +
+        '"api_secret,petition_id,source_description,source,requester_email" ' +
         'is required, check the doc here: ' +
         'https://github.com/change/api_docs/blob/master/v1/documentation/resources/petitions/auth_keys.md'
       );
