@@ -28,6 +28,7 @@ module.exports = function client(options) {
 
     if (method === 'GET') {
       url = url + '?' + qs.stringify(params);
+      params = undefined;
     }
 
     var options = {

@@ -1,8 +1,6 @@
-# change-api
+# change-api [![build status](https://secure.travis-ci.org/edsadr/change-api.png)](http://travis-ci.org/edsadr/change-api)
 
-Change.org API client
-
-[![build status](https://secure.travis-ci.org/edsadr/change-api.png)](http://travis-ci.org/edsadr/change-api)
+A Change.org API client for NodeJS/io.js
 
 ## Installation
 
@@ -11,6 +9,48 @@ npm install change-api --save
 ```
 
 ## Usage
+
+```
+$ npm install change-api --save
+```
+
+A basic example using `change-api` client to save an Applicant
+
+``` js
+var changeApi = require('./index.js');
+
+var petitionUrl = 'https://www.change.org/p/medellinjs-host-more-workshops-for-all-talks', 
+  userID = '17118355'
+  apiKey = process.env.CHANGE_API_KEY;
+
+var changeClient = changeApi.createClient({
+  api_key: apiKey
+});
+
+//Gets a petition using the public url
+changeClient.petitions.getByUrl(petitionUrl,
+  function (err, res, body) {
+    //Process results here
+  });
+
+//Gets a user by ID
+changeClient.users.getByID(userID,
+  function (err, res, body) {
+    //Process results here
+  });
+```
+## API and endpoints
+
+You can check the official Change.org API in the following url: [https://github.com/change/api_docs/blob/master/v1/documentation](https://github.com/change/api_docs/blob/master/v1/documentation)
+
+### Petitions
+
+
+
+### Users
+
+### Organizations
+
 
 ## Credits
 [Adrián Estrada](https://github.com/edsadr/)
