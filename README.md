@@ -1,4 +1,4 @@
-# change-api [![build status](https://secure.travis-ci.org/edsadr/change-api.png)](http://travis-ci.org/edsadr/change-api)
+# change-api [![build status](https://travis-ci.org/edsadr/change-api.svg?branch=master)](http://travis-ci.org/edsadr/change-api)
 
 A Change.org API client for NodeJS/io.js
 
