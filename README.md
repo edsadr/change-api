@@ -17,10 +17,11 @@ $ npm install change-api --save
 A basic example using `change-api` client to save an Applicant
 
 ``` js
-var changeApi = require('./index.js');
+var changeApi = require('change-api');
 
 var petitionUrl = 'https://www.change.org/p/medellinjs-host-more-workshops-for-all-talks', 
   userID = '17118355'
+  //Export your API key as an env variable to use it
   apiKey = process.env.CHANGE_API_KEY;
 
 var changeClient = changeApi.createClient({
@@ -119,11 +120,11 @@ Get an [auth key](http://www.change.org/developers/docs/resources/petitions/auth
 
 ``` js
 var options = {
-    'api_secret': apiSecret,
-    'petition_id': id,
-    'source_description': sourceDescription,
-    'source': sourceUrl,
-    'requester_email': email
+    api_secret: apiSecret,
+    petition_id: id,
+    source_description: sourceDescription,
+    source: sourceUrl,
+    requester_email: email
   };
 
 client.petitions.getAuthKey(options, callback);
@@ -133,16 +134,16 @@ Add signatures for a petition, you should request an [auth key](http://www.chang
 
 ``` js
 var options = {
-    'petition_id': id,
-    'api_secret': apiSecret,
-    'auth_key': authKey,
-    'source': sourceUrl,
-    'email': email,
-    'first_name': firstName,
-    'last_name': lastName,
-    'city': city,
-    'postal_code': zipCode,
-    'country_code': countryCode    
+    petition_id: id,
+    api_secret: apiSecret,
+    auth_key: authKey,
+    source: sourceUrl,
+    email: email,
+    first_name: firstName,
+    last_name: lastName,
+    city: city,
+    postal_code: zipCode,
+    country_code: countryCode    
   };
 
 client.petitions.addSignature(options, callback);
