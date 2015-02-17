@@ -3,47 +3,39 @@
         "scope": "https://api.change.org:443",
         "method": "POST",
         "path": "/v1/petitions/2780461/auth_keys",
-        "body": {
-            "petition_id": 2780461,
-            "source_description": "MedellinJS site",
-            "source": "http://medellinjs.org/comparte",
-            "requester_email": "edsadr@gmail.com",
-            "callback_endpoint": "http://medellinjs.org/update",
-            "endpoint": "/v1/petitions/2780461/auth_keys",
-            "timestamp": 4783248237832,
-            "api_key": "dummyKey"
-        },
-        "status": 202,
+        "body": "petition_id=2780461&source_description=MedellinJS%20site&source=http%3A%2F%2Fmedellinjs.org%2Fcomparte&requester_email=edsadr%40gmail.com&timestamp=2015-02-16T02%3A15%3A34.115Z&api_key=dummyKey&endpoint=%2Fv1%2Fpetitions%2F2780461%2Fauth_keys&rsig=4a599f4b5deb91453b57670e1a2566fbd7607131f1c253bb29eaa9dc2b2728db",
+        "status": 200,
         "response": {
             "status": "granted",
             "petition_id": "2780461",
             "source_description": "MedellinJS site",
             "source": "http://medellinjs.org/comparte",
             "requester_email": "edsadr@gmail.com",
-            "auth_key": "29b109add0012f47754a28309b670a2c"
+            "auth_key": "dumbKey"
         },
         "headers": {
             "server": "cloudflare-nginx",
-            "date": "Fri, 06 Feb 2015 03:30:43 GMT",
+            "date": "Mon, 16 Feb 2015 02:17:27 GMT",
             "content-type": "application/json; charset=utf-8",
             "transfer-encoding": "chunked",
             "connection": "keep-alive",
             "set-cookie": [
-                "__cfduid=d57ff00d6ba90d064f6eeb8baf45477de1423193442; expires=Sat, 06-Feb-16 03:30:42 GMT; path=/; domain=.change.org; HttpOnly",
-                "uuid=bc4c70fb28744e99afe458269e2672ea; path=/",
-                "_change_session=5dfd7ef39fa773acd59486b1c5e53ff1; domain=.change.org; path=/; expires=Fri, 06-Feb-2015 04:15:43 GMT; HttpOnly"
+                "__cfduid=d811dbb2cb398c671f4bd1866dfc1444e1424053046; expires=Tue, 16-Feb-16 02:17:26 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=37a88ffd730d46189e9a56955f543ab1; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%227b088774-084f-4636-abbe-7fab1612d3d8%22%7D; path=/; expires=Mon, 16-Feb-2015 03:02:27 GMT",
+                "_change_session=16209d61a13bc7528eb99c73f47bd371; domain=.change.org; path=/; expires=Mon, 16-Feb-2015 03:02:27 GMT; HttpOnly"
             ],
-            "status": "500 Internal Server Error",
+            "status": "200 OK",
             "access-control-allow-origin": "",
             "access-control-allow-methods": "POST, GET, OPTIONS",
             "access-control-allow-credentials": "true",
             "access-control-max-age": "1728000",
             "x-ua-compatible": "IE=Edge,chrome=1",
             "cache-control": "no-cache",
-            "x-request-id": "5868dc13677fe876eb01b2ad21347202",
-            "x-runtime": "0.218531",
+            "x-request-id": "a09e499fdf373099001dc4f83adf73ae",
+            "x-runtime": "0.050397",
             "x-rack-cache": "invalidate, pass",
-            "cf-ray": "1b444547b3711086-MDE"
+            "cf-ray": "1b963fb58e601092-MDE"
         }
     }
 ]

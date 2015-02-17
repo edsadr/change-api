@@ -17,7 +17,13 @@ nocker.createClient = function () {
 };
 
 nocker.loadCall = function (url, method, name, params) {
-  var reply = require('../testinfo/' + name + '.json');
+  var reply = ''
+  try {
+    reply = require('../testinfo/' + name + '.json');
+  } catch (e) {
+    console.err('The test file ' + name + '.json' + 'is missing, please run `npm run record` to generate it');
+    process.exit(1);
+  }
 
   params = defaults(params, {
     api_key: apiKey

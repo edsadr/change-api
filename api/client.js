@@ -16,9 +16,9 @@ module.exports = function client(options) {
   }
 
   function _request(method, route, params, callback) {
-    params = defaults({
+    params = defaults(params,{
       api_key: opts.api_key
-    }, params);
+    });
 
     var url = util.format(
       '%s/%s',
@@ -38,10 +38,8 @@ module.exports = function client(options) {
     };
 
     if (method === 'POST') {
-      var ctime = new Date().toISOString();
-
       params = defaults(params, {
-        'timestamp': ctime,
+        'timestamp': new Date().toISOString(),
         'endpoint': '/v1/' + route
       });
 
@@ -56,9 +54,10 @@ module.exports = function client(options) {
 
       var queryString = qs.stringify(params) + apiSecret +authKey;
 
-      var rsig = crypto.createHash('sha256').update(queryString).digest('hex');
-
-      params.rsig = rsig;
+      params = defaults(params, {
+        'rsig': crypto.createHash('sha256').update(queryString).digest('hex')
+      });
+      
       options.form = params;
     }
 

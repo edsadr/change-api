@@ -10,6 +10,7 @@
     "lint": "jshint .",
     "pretest": "npm run-script lint",
     "test": "istanbul cover ./node_modules/.bin/_mocha test",
+    "record": "./test/tools/recorder.js",
     "posttest": "istanbul check-coverage --statements 85 --branches 70 --functions 100 --lines 90 && rm -rf coverage",
     "prepublish": "npm test && npm prune"
   },

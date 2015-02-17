@@ -3,39 +3,34 @@
         "scope": "https://api.change.org:443",
         "method": "POST",
         "path": "/v1/petitions/2780461/signatures",
-        "body": {
-            "petition_id": 2780461,
-            "auth_key": "",
-            "source": "http://medellinjs.org/comparte",
-            "email": "edsadr@gmail.com",
-            "first_name": "Adrian",
-            "last_name": "Estrada",
-            "city": "Medellin",
-            "postal_code": "000000",
-            "country_code": "CO",
-            "timestamp": 4783248237832,
-            "api_key": "dummyKey"
-        },
-        "status": 202,
+        "body": "petition_id=2780461&source=http%3A%2F%2Fmedellinjs.org%2Fcomparte&email=edsadr%40gmail.com&first_name=Adrian&last_name=Estrada&city=Medellin&postal_code=000000&country_code=CO&timestamp=2015-02-16T02%3A15%3A34.115Z&api_key=dummyKey&endpoint=%2Fv1%2Fpetitions%2F2780461%2Fsignatures&rsig=2f5e90c1046a8dcfeb17c41a7518b8eb692b43a446f11f7c316138c4b0cf371c",
+        "status": 200,
         "response": {
             "result": "success"          
         },
         "headers": {
             "server": "cloudflare-nginx",
-            "date": "Fri, 06 Feb 2015 03:30:44 GMT",
+            "date": "Mon, 16 Feb 2015 02:17:29 GMT",
             "content-type": "application/json; charset=utf-8",
             "transfer-encoding": "chunked",
             "connection": "keep-alive",
             "set-cookie": [
-                "__cfduid=df7cc31f692ee55500842b1cf21a056b91423193444; expires=Sat, 06-Feb-16 03:30:44 GMT; path=/; domain=.change.org; HttpOnly"
+                "__cfduid=dbea490fdd6618615a6419e5557cb6d011424053048; expires=Tue, 16-Feb-16 02:17:28 GMT; path=/; domain=.change.org; HttpOnly",
+                "uuid=cb25707d0d6749a7a1da34a13e6e2de8; path=/",
+                "tracking_data=%7B%22user_uuid%22%3A%22be6a7f85-33bc-4e56-b048-907d0f35093e%22%7D; path=/; expires=Mon, 16-Feb-2015 03:02:29 GMT",
+                "_change_session=0b94d34b7cbf2bdbcea953d540f8b256; domain=.change.org; path=/; expires=Mon, 16-Feb-2015 03:02:29 GMT; HttpOnly"
             ],
-            "status": "400 Bad Request",
+            "status": "200 OK",
+            "access-control-allow-origin": "",
+            "access-control-allow-methods": "POST, GET, OPTIONS",
+            "access-control-allow-credentials": "true",
+            "access-control-max-age": "1728000",
             "x-ua-compatible": "IE=Edge,chrome=1",
             "cache-control": "no-cache",
-            "x-request-id": "d43679444c908ced643d808ba0907c8e",
-            "x-runtime": "0.021146",
+            "x-request-id": "bd8bf6f183fcd45ceaa1c7c1c358158e",
+            "x-runtime": "0.073550",
             "x-rack-cache": "invalidate, pass",
-            "cf-ray": "1b444551f4a31092-MDE"
+            "cf-ray": "1b963fc298931092-MDE"
         }
     }
 ]

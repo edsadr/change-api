@@ -145,17 +145,21 @@
 					    "petition_id": 2780461,
 					    "source_description": "MedellinJS site",
 					    "source": "http://medellinjs.org/comparte",
-					    "requester_email": "edsadr@gmail.com"  
+					    "requester_email": "edsadr@gmail.com",
+					    "timestamp": "2015-02-16T02:15:34.115Z",
+					    "rsig": "4a599f4b5deb91453b57670e1a2566fbd7607131f1c253bb29eaa9dc2b2728db"
 					},
 					"behavior": "It should get an auth key for a user",
 					"url": "petitions/2780461/auth_keys",
 					"verb": "POST",
 					"params": {
-					  	"api_secret": "apiSecret",
-					    "petition_id": 2780461,
+					  	"petition_id": 2780461,
 					    "source_description": "MedellinJS site",
 					    "source": "http://medellinjs.org/comparte",
-					    "requester_email": "edsadr@gmail.com"
+					    "requester_email": "edsadr@gmail.com",
+					    "timestamp": "2015-02-16T02:15:34.115Z",
+					    "rsig": "4a599f4b5deb91453b57670e1a2566fbd7607131f1c253bb29eaa9dc2b2728db",
+					    "endpoint": "/v1/petitions/2780461/auth_keys"
 					},
 					"status": 200
 				},
@@ -172,22 +176,25 @@
 					  "last_name": "Estrada",
 					  "city": "Medellin",
 					  "postal_code": "000000",
-					  "country_code": "CO"				  
+					  "country_code": "CO",
+					  "timestamp": "2015-02-16T02:15:34.115Z",
+					  "rsig": "2f5e90c1046a8dcfeb17c41a7518b8eb692b43a446f11f7c316138c4b0cf371c"
 					},
 					"behavior": "It should get an auth key for a user",
 					"url": "petitions/2780461/signatures",
 					"verb": "POST",
-					"params": {
-					  "api_secret": "apiSecret",
-					  "petition_id": 2780461,
-					  "auth_key": "",
+					"params": {					  
+					  "petition_id": 2780461,					  
 					  "source": "http://medellinjs.org/comparte",  
 					  "email": "edsadr@gmail.com",
 					  "first_name": "Adrian",
 					  "last_name": "Estrada",
 					  "city": "Medellin",
 					  "postal_code": "000000",
-					  "country_code": "CO"					   					  
+					  "country_code": "CO",
+					  "timestamp": "2015-02-16T02:15:34.115Z",
+					  "rsig": "2f5e90c1046a8dcfeb17c41a7518b8eb692b43a446f11f7c316138c4b0cf371c",
+					  "endpoint": "/v1/petitions/2780461/signatures"
 					},
 					"status": 200
 				}
