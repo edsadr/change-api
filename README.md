@@ -2,6 +2,8 @@
 
 A Change.org API client for NodeJS/io.js
 
+[![NPM](https://nodei.co/npm/change-api.png)](https://nodei.co/npm/change-api/)
+
 ## Installation
 
 ```

@@ -1,7 +1,7 @@
 {
   "name": "change-api",
   "description": "Change.org API client",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependencies": {
     "defaults": "^1.0.0",
     "request": "^2.51.0"
