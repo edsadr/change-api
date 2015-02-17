@@ -7,7 +7,7 @@ module.exports = function users(request) {
   /**
    * Gets a user id by url
    *
-   * @param {string} url - Url of the petition
+   * @param {string} url - Url of the user
    * @param {function} callback receiving error, response and result
    */
   function getIdByUrl(url, callback) {
