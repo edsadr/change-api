@@ -82,7 +82,7 @@ Get a petition targets by ID
 client.petitions.getTargets(id, callback);
 ```
 
-Get a petition signatures, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page nummber.
+Get a petition signatures, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page number.
 
 ``` js
 var options = {
@@ -94,7 +94,7 @@ var options = {
 client.petitions.getSignatures(options, callback);
 ```
 
-Get a petition reasons, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page nummber.
+Get a petition reasons, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page number.
 
 ``` js
 var options = {
@@ -106,7 +106,7 @@ var options = {
 client.petitions.getReasons(options, callback);
 ```
 
-Get a petition updates, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page nummber.
+Get a petition updates, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page number.
 
 ``` js
 var options = {
@@ -165,7 +165,7 @@ Get a user by ID
 client.users.getByID(id, callback);
 ```
 
-Get petitions created by a user identified by id, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page nummber.
+Get petitions created by a user identified by id, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page number.
 
 ``` js
 var options = {
@@ -177,7 +177,7 @@ var options = {
 client.users.getPetitions(options, callback);
 ```
 
-Get all signed petitions by a user identified by id, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page nummber.
+Get all signed petitions by a user identified by id, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page number.
 
 ``` js
 var options = {
@@ -203,7 +203,7 @@ Get an organization by ID
 client.organizations.getByID(id, callback);
 ```
 
-Get petitions created by an organization identified by id, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page nummber.
+Get petitions created by an organization identified by id, it supports pagination so the first parameter is an object and the id property is mandatory, optional you can set the page size and page number.
 
 ``` js
 var options = {
@@ -218,7 +218,7 @@ client.organizations.getPetitions(options, callback);
 ## Credits
 [Adrián Estrada](https://github.com/edsadr/)
 
-###The MIT License
+### The MIT License
 
 Copyright (c) 2015 Adrián Estrada
 
